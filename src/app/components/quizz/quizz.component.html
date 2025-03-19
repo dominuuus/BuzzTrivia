@@ -1,0 +1,21 @@
+<div class="quizz__container">
+
+    <div>{{title}}</div>
+
+    <div class="quizz_question">
+        <h3>{{questionSelected.question}}</h3>
+    </div>
+
+    <div class="quiz-options">
+        <button
+        *ngFor="let option of questionSelected.options, let i = index"
+        (click)="selectedOption(option.alias)"
+        class="btn_options">{{option.name}}</button>
+    </div>
+
+    <div *ngIF="finished" class="quiz-result">
+        <h1>Your result is...</h1>
+        <p>Selected answer</p>
+    </div>
+
+</div>
