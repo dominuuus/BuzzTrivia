@@ -45,3 +45,30 @@ button:hover {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .quizz__container {
+        flex-direction: column;
+    }
+
+    .quizz__content {
+        max-width: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .quizz_image {
+        max-width: 100%;
+        display: none;
+    }
+
+    .quizz-options {
+        grid-template-columns: 1fr;
+    }
+
+    button {
+        width: 100%;
+    }
+
+}
