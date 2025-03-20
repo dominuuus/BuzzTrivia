@@ -18,11 +18,13 @@ export class QuizzComponent implements OnInit {
 
   answers:string[] = []
   answerSelected:string = ""
+  answerResult:string = ""
 
   questionIndex:number = 0
   questionMaxIndex:number = 0
 
   finished:boolean = false
+  image:string = ""
 
   constructor() { }
 
@@ -36,11 +38,41 @@ export class QuizzComponent implements OnInit {
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
+
+      this.image = quizz_questions.image
       }
   }
 
   selectedOption(value:string) {
     this.answers.push(value)
+    this.nextStep()
   }
-  
+
+  async nextStep() {
+    this.questionIndex+=1
+    if(this.questionIndex < this.questionMaxIndex) {
+      this.questionSelected = this.questions[this.questionIndex]
+  } else {
+    this.finished = true
+    const finalResult:string = await this.checkResult(this.answers)
+    this.answerSelected = quizz_questions.results[finalResult as keyof typeof quizz_questions.results]
+    this.answerResult = finalResult
+  }
+  }
+
+  async checkResult(answers:string[]) {
+
+    const result = answers.reduce((previous, current, index, array) => {
+      if(
+        array.filter(item => item === previous).length >
+        array.filter(item => item === current).length
+      ){
+        return previous
+      } else {
+        return current
+      }
+    })
+    return result
+  }
+
 }

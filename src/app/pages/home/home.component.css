@@ -1,0 +1,29 @@
+.main-quizz__section {
+    height: 40%;
+    margin-top: 2rem;
+}
+
+.quizzes__section {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    background-color: var(--color-white);
+    padding: 10px;
+}
+
+.quizzes__section h1 {
+    color: var(--color-gray900);
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.labeled__main-quiz {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}

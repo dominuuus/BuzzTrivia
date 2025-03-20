@@ -1,55 +1,125 @@
 {
-    "title":"Você seria um heroi ou vilão ?",
-    "questions":[
+  "id": 1,
+  "title":"Descubra qual linguagem de programação combina com seu estilo geek!",
+  "image": "https://www.watelectronics.com/wp-content/uploads/different-programming-languages.png",
+  "questions":[
       {
         "id":1,
-        "question": "Qual super poder você escolheria ?",
+        "question": "Qual personagem de filme/série você mais se identifica?",
         "options":[
-          {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-          {"id": 2, "name":"Voar", "alias":"B"},
-          {"id": 3, "name":"Explodir coisas", "alias":"A"},
-          {"id": 4, "name":"Curar feridas", "alias":"B"},
-          {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+          {"id": 1, "name":"Tony Stark (Iron Man)", "alias":"Python"},
+          {"id": 2, "name":"Neo (Matrix)", "alias":"JavaScript"},
+          {"id": 3, "name":"Hermione Granger (Harry Potter)", "alias":"Java"},
+          {"id": 4, "name":"Deadpool", "alias":"Ruby"},
+          {"id": 5, "name":"Capitão Nascimento (Tropa de Elite)", "alias":"C++"},
+          {"id": 6, "name":"Phoebe Buffay (Friends)", "alias":"PHP"}
         ]
       },
       {
         "id":2,
-        "question": "Quem você salvaria primeiro ?",
+        "question": "Qual superpoder você gostaria de ter?",
         "options":[
-          {"id": 1, "name":"Crianças", "alias":"A"},
-          {"id": 2, "name":"Idosos", "alias":"A"},
-          {"id": 3, "name":"Não saberia escolher", "alias":"B"}
-        ]
+          {"id": 1, "name":"Leitura de Mentes", "alias":"Ruby"},
+          {"id": 2, "name":"Superinteligência", "alias":"C++"},
+          {"id": 3, "name":"Voar", "alias":"JavaScript"},
+          {"id": 4, "name":"Teletransporte", "alias":"Python"},
+          {"id": 5, "name":"Regeneração", "alias":"Java"},
+          {"id": 6, "name":"Invisibilidade", "alias":"PHP"}       
+]
       },
       {
         "id":3,
-        "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+        "question": "Qual é o seu estilo de resolver problemas?",
         "options":[
-          {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-          {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-          {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-          {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+          {"id": 4, "name":"Improviso e adapto conforme necessário", "alias":"Ruby"},
+          {"id": 6, "name":"Prefiro soluções rápidas e diretas", "alias":"PHP"},
+          {"id": 3, "name":"Planejo tudo antes de agir", "alias":"Java"},
+          {"id": 2, "name":"Gosto de frameworks e ferramentas prontas", "alias":"JavaScript"},
+          {"id": 1, "name":"Gosto de experimentar e aprender no processo", "alias":"Python"},
+          {"id": 5, "name":"Analiso profundamente antes de agir", "alias":"C++"}
         ]
       },
       {
         "id":4,
-        "question": "Qual o seu maior foco ?",
+        "question": "Qual filme/série de ficção científica você mais gosta?",
         "options":[
-          {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-          {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+          {"id": 5, "name":"Star Wars", "alias":"C++"},
+          {"id": 2, "name":"Matrix", "alias":"JavaScript"},
+          {"id": 1, "name":"Ex Machina", "alias":"Python"},
+          {"id": 6, "name":"Mad Max", "alias":"PHP"},
+          {"id": 3, "name":"Blade Runner", "alias":"Java"},
+          {"id": 4, "name":"Black Mirror", "alias":"Ruby"}
         ]
       },
       {
         "id":5,
-        "question": "Qual o seu apelido de super ser ?",
+        "question": "Qual personagem de filme/série você seria em um projeto de equipe?",
         "options":[
-          {"id": 1, "name":"O Terrivel", "alias":"A"},
-          {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+          {"id": 3, "name":"Líder (Capitão América)", "alias":"Java"},
+          {"id": 4, "name":"Comediante (Deadpool)", "alias":"Ruby"},
+          {"id": 2, "name":"Visionário (Tony Stark)", "alias":"JavaScript"},
+          {"id": 5, "name":"Estrategista (Batman)", "alias":"C++"},
+          {"id": 6, "name":"Facilitador (Phoebe Buffay)", "alias":"PHP"},
+          {"id": 1, "name":"Criativo (Sherlock Holmes)", "alias":"Python"}
+        ]
+      },
+      {
+        "id":6,
+        "question": "Qual é o seu nível de paciência para aprender algo novo?",
+        "options":[
+          {"id": 6, "name":"Prefiro algo que funcione rápido, mesmo que não seja perfeito", "alias":"PHP"},
+          {"id": 1, "name":"Gosto de aprender com ferramentas prontas", "alias":"Python"},
+          {"id": 3, "name":"Tenho muita paciência", "alias":"Java"},
+          {"id": 2, "name":"Prefiro algo mais fácil e rápido", "alias":"JavaScript"},
+          {"id": 5, "name":"Adoro mergulhar em detalhes", "alias":"C++"},
+          {"id": 4, "name":"Gosto de desafios, mas com recompensas rápidas", "alias":"Ruby"}
+        ]
+      },
+      {
+        "id":7,
+        "question": "Qual é o seu gênero de filme/série favorito?",
+        "options":[
+          {"id": 4, "name":"Comédia", "alias":"Ruby"},
+          {"id": 3, "name":"Drama", "alias":"Java"},
+          {"id": 6, "name":"Documentário", "alias":"PHP"},
+          {"id": 2, "name":"Fantasia", "alias":"JavaScript"},
+          {"id": 1, "name":"Ficção Científica", "alias":"Python"},
+          {"id": 5, "name":"Suspense", "alias":"C++"}
+        ]
+      },
+      {
+        "id":8,
+        "question": "Qual é a sua relação com bugs e erros?",
+        "options":[
+          {"id": 1, "name":"Aprendo com eles", "alias":"Python"},
+          {"id": 4, "name":"Encaro como desafios", "alias":"Ruby"},
+          {"id": 2, "name":"Gosto de consertar rapidamente", "alias":"JavaScript"},
+          {"id": 6, "name":"Improviso soluções rápidas", "alias":"PHP"},
+          {"id": 3, "name":"Prefiro evitar ao máximo", "alias":"Java"},
+          {"id": 5, "name":"Analiso profundamente cada erro", "alias":"C++"}
+        ]
+      },
+      {
+        "id":9,
+        "question": "Qual é o seu objetivo ao programar?",
+        "options":[
+          {"id": 5, "name":"Desenvolver sistemas de alto desempenho", "alias":"C++"},
+          {"id": 4, "name":"Desenvolver aplicativos", "alias":"Ruby"},
+          {"id": 1, "name":"Trabalhar com dados e IA", "alias":"Python"},
+          {"id": 2, "name":"Criar sites incríveis", "alias":"JavaScript"},
+          {"id": 6, "name":"Criar aplicações web rápidas", "alias":"PHP"},
+          {"id": 3, "name":"Criar aplicações robustas e portáteis", "alias":"Java"}
+
         ]
       }
+      
     ],
     "results":{
-      "A": "Você muito provavelmente seria um super vilão!",
-      "B": "Você muito provavelmente seria um super Herói!"
+      "Python": "Python é a linguagem versátil e poderosa que te permite 'teletransportar' entre diferentes áreas, desde automação até inteligência artificial. Com uma abordagem prática e intuitiva, você aprende com os erros e usa ferramentas prontas para criar soluções incríveis. Ideal para quem ama ficção científica e quer transformar ideias em realidade! Com Python, você é o Tony Stark da programação: versátil, criativo e sempre um passo à frente!",
+      "JavaScript": "JavaScript é a linguagem que domina a web, permitindo que você 'voar' entre front-end, back-end e desenvolvimento mobile. Com frameworks e ferramentas prontas, você resolve problemas de forma rápida e eficiente, sempre pronto para consertar bugs e inovar. Ideal para quem ama fantasia e quer criar experiências digitais mágicas! Com JavaScript, você é o Neo da programação: dominando a Matrix da web e transformando ideias em realidade!",
+      "Java": "Java é a linguagem confiável e estruturada que se regenera e se adapta com o tempo, sempre evoluindo para atender às demandas modernas. Com planejamento e paciência, você evita erros e cria soluções robustas e portáteis, prontas para qualquer desafio. Ideal para quem ama drama e busca confiabilidade em seus projetos! Com Java, você é a Hermione Granger da programação: organizada, confiável e sempre pronta para liderar!",
+      "Ruby": "Ruby é a linguagem cheia de personalidade e 'mágica', que parece ler a mente do programador para tornar o desenvolvimento rápido e prazeroso. Com improvisação e adaptação, você encara erros como desafios e cria soluções criativas. Ideal para quem ama comédia e busca recompensas rápidas com um toque de diversão! Com Ruby, você é o Deadpool da programação: divertido, ágil e sempre pronto para surpreender!",
+      "C++": "C++ é a linguagem poderosa e complexa, que exige superinteligência e análise profunda para ser dominada. Com uma abordagem estratégica e meticulosa, você mergulha nos detalhes e resolve cada erro com precisão. Ideal para quem ama suspense e busca criar sistemas robustos e eficientes! Com C++, você é o Capitão Nascimento da programação: poderoso, estratégico e sempre no controle!",
+      "PHP": "PHP é a linguagem que está em todo lugar, mas muitas vezes passa despercebida, assim como alguém com o poder da invisibilidade. Com soluções rápidas e diretas, você improvisa e faz as coisas funcionarem, mesmo que não sejam perfeitas. Ideal para quem ama documentários e busca praticidade no desenvolvimento web! Com PHP, você é a Phoebe Buffay da programação: prática, ágil e sempre pronta para facilitar a vida!"
     }
   }

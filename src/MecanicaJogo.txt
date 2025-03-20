@@ -1,0 +1,114 @@
+1. Qual personagem de filme/série você mais se identifica?
+Tony Stark (Iron Man) → Python (versátil e poderosa).
+
+Neo (Matrix) → JavaScript (ubíqua e essencial para a "matrix" da web).
+
+Hermione Granger (Harry Potter) → Java (organizada e estruturada).
+
+Deadpool → Ruby (divertida e cheia de personalidade).
+
+Capitão Nascimento (Tropa de Elite) → C++ (poderosa e direta, mas exige disciplina).
+
+Eleven (Stranger Things) → C# (usada em ambientes controlados e poderosos, como a Unity).
+
+Phoebe Buffay (Friends) → PHP (improvisada, mas sempre faz o trabalho).
+
+2. Qual superpoder você gostaria de ter?
+Superpoder	Linguagem	Razão do Match
+Voar	JavaScript	Domina a web e "voa" entre front-end, back-end e mobile.
+Invisibilidade	PHP	Está em todo lugar, mas ninguém vê.
+Superinteligência	C++	Poderosa e complexa, exige inteligência para dominar.
+Teletransporte	Python	Versátil e presente em várias áreas, como se estivesse em todos os lugares.
+Leitura de Mentes	Ruby	Intuitiva e cheia de "mágica", como se lesse a mente do código.
+Regeneração	Java	Robusta e resiliente, capaz de se adaptar e se regenerar com o tempo.
+
+
+3. Qual é o seu estilo de resolver problemas?
+Planejo tudo antes de agir → Java (estruturada e organizada).
+
+Gosto de experimentar e aprender no processo → Python (simples e intuitiva).
+
+Prefiro soluções rápidas e diretas → PHP (prática e direta).
+
+Analiso profundamente antes de agir → C++ (poderosa e detalhista).
+
+Gosto de frameworks e ferramentas prontas → JavaScript (amplamente suportada e cheia de frameworks).
+
+Improviso e adapto conforme necessário → Ruby (flexível e cheia de "mágica").
+
+
+4. Qual filme/série de ficção científica você mais gosta?
+Matrix → JavaScript (a linguagem da web, como a Matrix do mundo digital).
+
+Star Wars → C# (usada em jogos e aplicações robustas, como a galáxia de Star Wars).
+
+Black Mirror → Rust (moderna e segura, ideal para um futuro distópico).
+
+Ex Machina → Python (usada em IA e automação).
+
+Blade Runner → C++ (poderosa e complexa, como o mundo de Blade Runner).
+
+Mad Max → PHP (improvisada, mas sempre faz o trabalho).
+
+
+5. Qual personagem de filme/série você seria em um projeto de equipe?
+Líder (Capitão América) → Java (estruturada e confiável).
+
+Criativo (Sherlock Holmes) → Python (versátil e criativa).
+
+Estrategista (Batman) → C++ (poderosa e estratégica).
+
+Comediante (Deadpool) → Ruby (divertida e cheia de personalidade).
+
+Visionário (Tony Stark) → JavaScript (usada em projetos ambiciosos).
+
+Facilitador (Phoebe Buffay) → PHP (improvisada, mas sempre resolve).
+
+6. Qual é o seu nível de paciência para aprender algo novo?
+Tenho muita paciência → Java (complexa, mas poderosa).
+
+Prefiro algo mais fácil e rápido → JavaScript (fácil de começar).
+
+Gosto de desafios, mas com recompensas rápidas → Ruby (divertida e produtiva).
+
+Adoro mergulhar em detalhes → C++ (poderosa e detalhista).
+
+Gosto de aprender com ferramentas prontas → Python.
+
+Prefiro algo que funcione rápido, mesmo que não seja perfeito → PHP (prática e direta).
+
+7. Qual é o seu gênero de filme/série favorito?
+
+Comédia → Ruby (divertida e cheia de personalidade).
+
+Ficção Científica → Python (usada em IA e automação).
+
+Drama → Java (estruturada e séria).
+
+Suspense → C++ (poderosa e complexa).
+
+Fantasia → JavaScript
+
+Documentário → PHP (improvisada, mas sempre faz o trabalho).
+
+8. Qual é a sua relação com bugs e erros?
+Encaro como desafios → Ruby (segura e moderna).
+
+Prefiro evitar ao máximo → Java (tipada e organizada).
+
+Aprendo com eles → Python (simples e intuitiva).
+
+Gosto de consertar rapidamente → JavaScript (flexível e dinâmica).
+
+Analiso profundamente cada erro → C++ (poderosa e detalhista).
+
+Improviso soluções rápidas → PHP (prática e direta).
+
+
+9. Qual é o seu objetivo ao programar?
+{"id": 1, "name":"Trabalhar com dados e IA", "alias":"Python"},
+          {"id": 2, "name":"Criar sites incríveis", "alias":"JavaScript"},
+          {"id": 3, "name":"Criar aplicações robustas e portáteis", "alias":"Java"},
+          {"id": 4, "name":"Desenvolver aplicativos", "alias":"Ruby"},
+          {"id": 5, "name":"Desenvolver sistemas de alto desempenho", "alias":"C++"},
+          {"id": 6, "name":"Criar aplicações web rápidas", "alias":"PHP"}

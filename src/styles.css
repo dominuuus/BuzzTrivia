@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Boldonse", "Roboto", sans-serif;
+}
+
+:root {
+    --color-main: #84d162;
+    --color-secondary: #ff816a;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-gray300: #cbcbcb;
+    --color-gray900: #282727;
+    --font-main: "Boldonse", "Roboto", sans-serif;
+    --font-seconday: "Roboto", sans-serif;
+}
+
+body {
+    background: var(--color-main)
+}
