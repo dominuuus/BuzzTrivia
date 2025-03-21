@@ -11,7 +11,7 @@ export const routes: Routes = [
     },
 
     {
-        path: 'quizzes',
+        path: 'quizzes/:id',
         component: QuizzesComponent
     }
 

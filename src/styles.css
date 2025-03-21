@@ -7,16 +7,19 @@
 }
 
 :root {
-    --color-main: #84d162;
-    --color-secondary: #ff816a;
+    --color-main: #173359;
+    --color-secondary: #cc5641;
     --color-white: #fff;
     --color-black: #000;
-    --color-gray300: #cbcbcb;
+    --color-sectionOne: #ececec;
+    --color-sectionTwo: #ececec;
     --color-gray900: #282727;
+    --color-button: #e7eaef;
     --font-main: "Boldonse", "Roboto", sans-serif;
     --font-seconday: "Roboto", sans-serif;
 }
 
 body {
-    background: var(--color-main)
+    background-color: var(--color-sectionTwo);
+    color: var(--color-main);
 }

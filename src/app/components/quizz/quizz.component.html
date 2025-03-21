@@ -14,7 +14,7 @@
             class="btn_options">{{option.name}}</button>
         </div>
         <div *ngIf=finished class="quizz-result">
-            <h1 class="title-result">{{title}}</h1>
+            <h2>{{title | uppercase}}</h2>
             <h1>Seu resultado é... {{answerResult | uppercase}}</h1>
             <p>{{answerSelected}}</p>
         </div>

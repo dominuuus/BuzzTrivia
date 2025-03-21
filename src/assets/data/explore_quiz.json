@@ -1,70 +1,192 @@
 [
   {
     "id": 1,
-    "title": "DE aí?",
-    "image": "https://www.watelectronics.com/wp-content/uploads/different-programming-languages.png",
+    "title": "Qual linguagem de programação seria sua parceira em um apocalipse zumbi?",
+    "image": "zumbi.png",
     "questions": [
       {
         "id": 1,
-        "question": "Qual personagem de filme/série você mais se identifica?",
+        "question": "Os zumbis estão vindo! Qual é seu primeiro instinto?",
         "options": [
-          { "id": 1, "name": "Tony Stark (Iron Man)", "alias": "Python" },
-          { "id": 2, "name": "Neo (Matrix)", "alias": "JavaScript" },
-          { "id": 3, "name": "Hermione Granger (Harry Potter)", "alias": "Java" },
-          { "id": 4, "name": "Deadpool", "alias": "Ruby" },
-          { "id": 5, "name": "Capitão Nascimento (Tropa de Elite)", "alias": "C++" },
-          { "id": 6, "name": "Phoebe Buffay (Friends)", "alias": "PHP" }
+          { "id": 1, "name": "Corro rápido para escapar", "alias": "Python" },
+          { "id": 2, "name": "Pego uma arma e vou lutar", "alias": "Java" },
+          { "id": 3, "name": "Crio um plano para evacuar em segurança", "alias": "C++" },
+          { "id": 4, "name": "Improviso uma defesa", "alias": "JavaScript" },
+          { "id": 5, "name": "Construo uma barricada para resistir", "alias": "C#" },
+          { "id": 6, "name": "Uso algo simples e prático, como uma armadilha improvisada", "alias": "PHP" },
+          { "id": 7, "name": "Organizo os suprimentos e planejo as defesas", "alias": "SQL" },
+          { "id": 8, "name": "Crio barreiras de proteção antes mesmo do ataque acontecer", "alias": "TypeScript" }
         ]
       },
       {
         "id": 2,
-        "question": "Qual superpoder você gostaria de ter?",
+        "question": "Você encontra sobreviventes. Como você ajuda o grupo?",
         "options": [
-          { "id": 1, "name": "Leitura de Mentes", "alias": "Ruby" },
-          { "id": 2, "name": "Superinteligência", "alias": "C++" },
-          { "id": 3, "name": "Voar", "alias": "JavaScript" },
-          { "id": 4, "name": "Teletransporte", "alias": "Python" },
-          { "id": 5, "name": "Regeneração", "alias": "Java" },
-          { "id": 6, "name": "Invisibilidade", "alias": "PHP" }
+          { "id": 1, "name": "Resolvendo problemas práticos de forma rápida", "alias": "Python" },
+          { "id": 2, "name": "Assumindo o controle", "alias": "Java" },
+          { "id": 3, "name": "Desenvolvendo uma estratégia detalhada para todos seguirem", "alias": "C++" },
+          { "id": 4, "name": "Criando soluções criativas e inesperadas", "alias": "JavaScript" },
+          { "id": 5, "name": "Construindo defesas robustas que protejam o grupo", "alias": "C#" },
+          { "id": 6, "name": "Mantendo as coisas funcionando nos bastidores com eficiência", "alias": "PHP" },
+          { "id": 7, "name": "Catalogando recursos e suprimentos para uso otimizado", "alias": "SQL" },
+          { "id": 8, "name": "Melhorando as ideias do grupo com novas sugestões", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual arma você escolheria contra os zumbis?",
+        "options": [
+          { "id": 1, "name": "Faca: vai servir para qualquer situação", "alias": "Python" },
+          { "id": 2, "name": "Espada: clássica e confiável", "alias": "Java" },
+          { "id": 3, "name": "Machado: pesado para ataques poderosos", "alias": "C++" },
+          { "id": 4, "name": "Improviso com um estilingue turbinado", "alias": "JavaScript" },
+          { "id": 5, "name": "Rifle: bem projetado para máxima eficiência", "alias": "C#" },
+          { "id": 6, "name": "Taco: simples, funcional e nunca te deixa na mão", "alias": "PHP" },
+          { "id": 7, "name": "Arco e flecha: tenho boa pontaria", "alias": "SQL" },
+          { "id": 8, "name": "Explosivos: os mais modernos e eficientes", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Você precisa atravessar uma cidade infestada. Qual é sua estratégia?",
+        "options": [
+          { "id": 1, "name": "Se adaptar ao caminho, evitando zumbis com agilidade", "alias": "Python" },
+          { "id": 2, "name": "Seguir um plano para chegar ao destino", "alias": "Java" },
+          { "id": 3, "name": "Eliminar os zumbis no caminho com armas poderosas", "alias": "C++" },
+          { "id": 4, "name": "Tentar um caminho alternativo", "alias": "JavaScript" },
+          { "id": 5, "name": "Planejar uma rota otimizada e executá-la com precisão", "alias": "C#" },
+          { "id": 6, "name": "Focar em atalhos práticos, sem complicações", "alias": "PHP" },
+          { "id": 7, "name": "Mapear a cidade e usar os dados para evitar áreas perigosas", "alias": "SQL" },
+          { "id": 8, "name": "Escolher um caminho seguro, com mínimo esforço", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Você acha um rádio quebrado. O que faz?",
+        "options": [
+          { "id": 1, "name": "Tenta consertá-lo rapidamente com ajustes simples", "alias": "Python" },
+          { "id": 2, "name": "Segue um método comprovado para repará-lo com segurança", "alias": "Java" },
+          { "id": 3, "name": "Desmonta tudo e reconstrói com máxima precisão", "alias": "C++" },
+          { "id": 4, "name": "Mexe nos fios até funcionar", "alias": "JavaScript" },
+          { "id": 5, "name": "Otimiza o conserto para garantir desempenho perfeito", "alias": "C#" },
+          { "id": 6, "name": "Faz o básico para ele voltar a funcionar logo", "alias": "PHP" },
+          { "id": 7, "name": "Analisa os circuitos e organiza os reparos por prioridade", "alias": "SQL" },
+          { "id": 8, "name": "Conserta com uma abordagem moderna e elegante", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é o maior desafio do apocalipse para você?",
+        "options": [
+          { "id": 1, "name": "Lidar com situações imprevisíveis o tempo todo", "alias": "Python" },
+          { "id": 2, "name": "A falta de estrutura e organização no caos", "alias": "Java" },
+          { "id": 3, "name": "Sobreviver sem poder usar toda sua força potencial", "alias": "C++" },
+          { "id": 4, "name": "Ter que improvisar sem tempo para planejar", "alias": "JavaScript" },
+          { "id": 5, "name": "Encontrar falhas que poderiam ser evitadas com mais cuidado", "alias": "C#" },
+          { "id": 6, "name": "A simplicidade excessiva das coisas ao seu redor", "alias": "PHP" },
+          { "id": 7, "name": "Não ter dados suficientes para tomar decisões", "alias": "SQL" },
+          { "id": 8, "name": "As armas não serem suficientes para combater os zumbis", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual seria seu papel ideal em um grupo de sobreviventes?",
+        "options": [
+          { "id": 1, "name": "O resolvedor de problemas que se adapta a tudo", "alias": "Python" },
+          { "id": 2, "name": "O líder confiável que mantém o grupo unido", "alias": "Java" },
+          { "id": 3, "name": "O guerreiro que enfrenta os zumbis sem medo", "alias": "C++" },
+          { "id": 4, "name": "O improvisador que sempre tem uma ideia na manga", "alias": "JavaScript" },
+          { "id": 5, "name": "O estrategista que otimiza cada ação do grupo", "alias": "C#" },
+          { "id": 6, "name": "O suporte silencioso que faz tudo funcionar nos bastidores", "alias": "PHP" },
+          { "id": 7, "name": "O organizador que gerencia recursos e informações", "alias": "SQL" },
+          { "id": 8, "name": "O inovador que traz novas ideias e estratégias", "alias": "TypeScript" }
         ]
       }
     ],
     "results": {
-      "Python": "Python é a linguagem versátil e poderosa...",
-      "JavaScript": "JavaScript é a linguagem que domina a web...",
-      "Java": "Java é a linguagem confiável e estruturada...",
-      "Ruby": "Ruby é a linguagem cheia de personalidade...",
-      "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar..."
+      "Python": "Flexível, adaptável e prática, ideal para resolver problemas rapidamente no caos",
+      "Java": "Confiável, estruturada e robusta, perfeita para manter a ordem em situações críticas",
+      "JavaScript": "Criativa e caótica, sempre improvisando soluções, mesmo que nem sempre perfeitas",
+      "C#": "Otimizada e eficiente, construindo defesas sólidas com um toque moderno",
+      "C++": "Poderosa e intensa, feita para enfrentar desafios com força e precisão",
+      "PHP": "Simples e funcional, trabalhando nos bastidores para manter tudo rodando",
+      "SQL": "Organizada e analítica, gerenciando recursos e informações com maestria",
+      "TypeScript": "Elegante e moderna, trazendo melhorias sofisticadas para o apocalipse"
     }
   },
   {
-    "id": 1,
-    "title": "DE aí?",
-    "image": "https://www.watelectronics.com/wp-content/uploads/different-programming-languages.png",
+    "id": 2,
+    "title": "Como você sobreviveria em um mundo onde apenas as linguagens de programação governam?",
+    "image": "zumbi.png",
     "questions": [
       {
         "id": 1,
-        "question": "Qual personagem de filme/série você mais se identifica?",
+        "question": "Você acorda neste mundo estranho. Qual é sua primeira ação?",
         "options": [
-          { "id": 1, "name": "Tony Stark (Iron Man)", "alias": "Python" },
-          { "id": 2, "name": "Neo (Matrix)", "alias": "JavaScript" },
-          { "id": 3, "name": "Hermione Granger (Harry Potter)", "alias": "Java" },
-          { "id": 4, "name": "Deadpool", "alias": "Ruby" },
-          { "id": 5, "name": "Capitão Nascimento (Tropa de Elite)", "alias": "C++" },
-          { "id": 6, "name": "Phoebe Buffay (Friends)", "alias": "PHP" }
+          { "id": 1, "name": "Explorar o ambiente e me adaptar às regras", "alias": "Python" },
+          { "id": 2, "name": "Procurar uma autoridade confiável para entender as leis", "alias": "Java" },
+          { "id": 3, "name": "Enfrentar qualquer desafio que apareça com força total", "alias": "C++" },
+          { "id": 4, "name": "Improvisar e tentar hackear o sistema", "alias": "JavaScript" },
+          { "id": 5, "name": "Analisar o terreno e planejar uma estratégia", "alias": "C#" },
+          { "id": 6, "name": "Fazer o básico para sobreviver sem chamar atenção", "alias": "PHP" },
+          { "id": 7, "name": "Coletar informações sobre tudo ao meu redor para me orientar", "alias": "SQL" },
+          { "id": 8, "name": "Ser ambicioso e procurar me integrar ao sistema", "alias": "TypeScript" }
         ]
       },
       {
         "id": 2,
-        "question": "Qual superpoder você gostaria de ter?",
+        "question": "Cada linguagem controla uma facção. Com qual você tenta se aliar primeiro?",
         "options": [
-          { "id": 1, "name": "Leitura de Mentes", "alias": "Ruby" },
-          { "id": 2, "name": "Superinteligência", "alias": "C++" },
-          { "id": 3, "name": "Voar", "alias": "JavaScript" },
-          { "id": 4, "name": "Teletransporte", "alias": "Python" },
-          { "id": 5, "name": "Regeneração", "alias": "Java" },
-          { "id": 6, "name": "Invisibilidade", "alias": "PHP" }
+          { "id": 1, "name": "A que resolve problemas de todos os tipos", "alias": "Python" },
+          { "id": 2, "name": "A que mantém a ordem e a estabilidade", "alias": "Java" },
+          { "id": 3, "name": "A que domina pela força bruta", "alias": "C++" },
+          { "id": 4, "name": "A que vive improvisando soluções", "alias": "JavaScript" },
+          { "id": 5, "name": "A que constrói tudo com precisão", "alias": "C#" },
+          { "id": 6, "name": "A que trabalha nos bastidores", "alias": "PHP" },
+          { "id": 7, "name": "A que que organiza e gerencia dados", "alias": "SQL" },
+          { "id": 8, "name": "A que melhora tudo o que toca", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Os líderes das linguagens chamam você para um desafio de sobrevivência. Como você se prepara?",
+        "options": [
+          { "id": 1, "name": "Reviso todas as informações disponíveis e aprendo com outros sobreviventes", "alias": "Python" },
+          { "id": 2, "name": "Elaboro um plano sólido e me certifico de que tudo está bem estruturado", "alias": "Java" },
+          { "id": 3, "name": "Faço testes rigorosos para garantir que meu plano seja eficiente", "alias": "C++" },
+          { "id": 4, "name": "Me adapto rapidamente ao desafio, mesmo sem um plano definido", "alias": "JavaScript" },
+          { "id": 5, "name": "Desenvolvo um sistema de defesa para garantir minha segurança", "alias": "C#" },
+          { "id": 6, "name": "Crio soluções criativas e improviso quando necessário", "alias": "PHP" },
+          { "id": 7, "name": "Registro todas as estratégias possíveis e analiso os padrões", "alias": "SQL" },
+          { "id": 8, "name": "Me certifico de que nenhuma regra foi quebrada antes de agir", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Você encontra um viajante perdido que não entende nada desse novo mundo. Como o ajuda?",
+        "options": [
+          { "id": 1, "name": "Mostro diferentes caminhos para ele aprender no próprio ritmo", "alias": "Python" },
+          { "id": 2, "name": "Explico as regras e o guio com um plano bem definido", "alias": "Java" },
+          { "id": 3, "name": "Dou instruções detalhadas para que ele seja eficiente desde o início", "alias": "C++" },
+          { "id": 4, "name": "Ensino ele na prática, sem me preocupar com a perfeição", "alias": "JavaScript" },
+          { "id": 5, "name": "Crio um ambiente seguro onde ele pode aprender com tranquilidade", "alias": "C#" },
+          { "id": 6, "name": "Explico do jeito mais fácil possível, sem complicações", "alias": "PHP" },
+          { "id": 7, "name": "Forneço todas as informações que ele pode precisar", "alias": "SQL" },
+          { "id": 8, "name": "Aconselho ele a seguir regras para evitar problemas no futuro", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual recurso você priorizaria para sobreviver em um mundo governado por linguagens de programação?",
+        "options": [
+          { "id": 1, "name": "Inteligência Artificial e Automação", "alias": "Python" },
+          { "id": 2, "name": "Infraestrutura e Sistemas Robustos", "alias": "Java" },
+          { "id": 3, "name": "Sistemas de Segurança e Defesa", "alias": "C++" },
+          { "id": 4, "name": "Comunicação e Interfaces Interativas", "alias": "JavaScript" },
+          { "id": 5, "name": "Ferramentas de Realidade Virtual e Jogos", "alias": "C#" },
+          { "id": 6, "name": "Soluções Rápidas e Práticas", "alias": "PHP" },
+          { "id": 7, "name": "Bancos de Dados e Gestão de Informações", "alias": "SQL" },
+          { "id": 8, "name": "Sistemas Organizados e Previsíveis", "alias": "TypeScript" }
         ]
       }
     ],
@@ -74,75 +196,199 @@
       "Java": "Java é a linguagem confiável e estruturada...",
       "Ruby": "Ruby é a linguagem cheia de personalidade...",
       "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar..."
+      "PHP": "PHP é a linguagem que está em todo lugar...",
+      "C#": "C++ é a linguagem poderosa e complexa...",
+      "TypeScript": "PHP é a linguagem que está em todo lugar..."
     }
   },
   {
-    "id": 1,
-    "title": "DE aí?",
-    "image": "https://www.watelectronics.com/wp-content/uploads/different-programming-languages.png",
+    "id": 3,
+    "title": "Qual linguagem de programação seria sua parceira em um apocalipse zumbi?",
+    "image": "zumbi.png",
     "questions": [
       {
         "id": 1,
-        "question": "Qual personagem de filme/série você mais se identifica?",
+        "question": "Os zumbis estão vindo! Qual é seu primeiro instinto?",
         "options": [
-          { "id": 1, "name": "Tony Stark (Iron Man)", "alias": "Python" },
-          { "id": 2, "name": "Neo (Matrix)", "alias": "JavaScript" },
-          { "id": 3, "name": "Hermione Granger (Harry Potter)", "alias": "Java" },
-          { "id": 4, "name": "Deadpool", "alias": "Ruby" },
-          { "id": 5, "name": "Capitão Nascimento (Tropa de Elite)", "alias": "C++" },
-          { "id": 6, "name": "Phoebe Buffay (Friends)", "alias": "PHP" }
+          { "id": 1, "name": "Corro rápido para escapar", "alias": "Python" },
+          { "id": 2, "name": "Pego uma arma e vou lutar", "alias": "Java" },
+          { "id": 3, "name": "Crio um plano para evacuar em segurança", "alias": "C++" },
+          { "id": 4, "name": "Improviso uma defesa", "alias": "JavaScript" },
+          { "id": 5, "name": "Construo uma barricada para resistir", "alias": "C#" },
+          { "id": 6, "name": "Uso algo simples e prático, como uma armadilha improvisada", "alias": "PHP" },
+          { "id": 7, "name": "Organizo os suprimentos e planejo as defesas", "alias": "SQL" },
+          { "id": 8, "name": "Crio barreiras de proteção antes mesmo do ataque acontecer", "alias": "TypeScript" }
         ]
       },
       {
         "id": 2,
-        "question": "Qual superpoder você gostaria de ter?",
+        "question": "Você encontra sobreviventes. Como você ajuda o grupo?",
         "options": [
-          { "id": 1, "name": "Leitura de Mentes", "alias": "Ruby" },
-          { "id": 2, "name": "Superinteligência", "alias": "C++" },
-          { "id": 3, "name": "Voar", "alias": "JavaScript" },
-          { "id": 4, "name": "Teletransporte", "alias": "Python" },
-          { "id": 5, "name": "Regeneração", "alias": "Java" },
-          { "id": 6, "name": "Invisibilidade", "alias": "PHP" }
+          { "id": 1, "name": "Resolvendo problemas práticos de forma rápida", "alias": "Python" },
+          { "id": 2, "name": "Assumindo o controle", "alias": "Java" },
+          { "id": 3, "name": "Desenvolvendo uma estratégia detalhada para todos seguirem", "alias": "C++" },
+          { "id": 4, "name": "Criando soluções criativas e inesperadas", "alias": "JavaScript" },
+          { "id": 5, "name": "Construindo defesas robustas que protejam o grupo", "alias": "C#" },
+          { "id": 6, "name": "Mantendo as coisas funcionando nos bastidores com eficiência", "alias": "PHP" },
+          { "id": 7, "name": "Catalogando recursos e suprimentos para uso otimizado", "alias": "SQL" },
+          { "id": 8, "name": "Melhorando as ideias do grupo com novas sugestões", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual arma você escolheria contra os zumbis?",
+        "options": [
+          { "id": 1, "name": "Faca: vai servir para qualquer situação", "alias": "Python" },
+          { "id": 2, "name": "Espada: clássica e confiável", "alias": "Java" },
+          { "id": 3, "name": "Machado: pesado para ataques poderosos", "alias": "C++" },
+          { "id": 4, "name": "Improviso com um estilingue turbinado", "alias": "JavaScript" },
+          { "id": 5, "name": "Rifle: bem projetado para máxima eficiência", "alias": "C#" },
+          { "id": 6, "name": "Taco: simples, funcional e nunca te deixa na mão", "alias": "PHP" },
+          { "id": 7, "name": "Arco e flecha: tenho boa pontaria", "alias": "SQL" },
+          { "id": 8, "name": "Explosivos: os mais modernos e eficientes", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Você precisa atravessar uma cidade infestada. Qual é sua estratégia?",
+        "options": [
+          { "id": 1, "name": "Se adaptar ao caminho, evitando zumbis com agilidade", "alias": "Python" },
+          { "id": 2, "name": "Seguir um plano para chegar ao destino", "alias": "Java" },
+          { "id": 3, "name": "Eliminar os zumbis no caminho com armas poderosas", "alias": "C++" },
+          { "id": 4, "name": "Tentar um caminho alternativo", "alias": "JavaScript" },
+          { "id": 5, "name": "Planejar uma rota otimizada e executá-la com precisão", "alias": "C#" },
+          { "id": 6, "name": "Focar em atalhos práticos, sem complicações", "alias": "PHP" },
+          { "id": 7, "name": "Mapear a cidade e usar os dados para evitar áreas perigosas", "alias": "SQL" },
+          { "id": 8, "name": "Escolher um caminho seguro, com mínimo esforço", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Você acha um rádio quebrado. O que faz?",
+        "options": [
+          { "id": 1, "name": "Tenta consertá-lo rapidamente com ajustes simples", "alias": "Python" },
+          { "id": 2, "name": "Segue um método comprovado para repará-lo com segurança", "alias": "Java" },
+          { "id": 3, "name": "Desmonta tudo e reconstrói com máxima precisão", "alias": "C++" },
+          { "id": 4, "name": "Mexe nos fios até funcionar", "alias": "JavaScript" },
+          { "id": 5, "name": "Otimiza o conserto para garantir desempenho perfeito", "alias": "C#" },
+          { "id": 6, "name": "Faz o básico para ele voltar a funcionar logo", "alias": "PHP" },
+          { "id": 7, "name": "Analisa os circuitos e organiza os reparos por prioridade", "alias": "SQL" },
+          { "id": 8, "name": "Conserta com uma abordagem moderna e elegante", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual é o maior desafio do apocalipse para você?",
+        "options": [
+          { "id": 1, "name": "Lidar com situações imprevisíveis o tempo todo", "alias": "Python" },
+          { "id": 2, "name": "A falta de estrutura e organização no caos", "alias": "Java" },
+          { "id": 3, "name": "Sobreviver sem poder usar toda sua força potencial", "alias": "C++" },
+          { "id": 4, "name": "Ter que improvisar sem tempo para planejar", "alias": "JavaScript" },
+          { "id": 5, "name": "Encontrar falhas que poderiam ser evitadas com mais cuidado", "alias": "C#" },
+          { "id": 6, "name": "A simplicidade excessiva das coisas ao seu redor", "alias": "PHP" },
+          { "id": 7, "name": "Não ter dados suficientes para tomar decisões", "alias": "SQL" },
+          { "id": 8, "name": "As armas não serem suficientes para combater os zumbis", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual seria seu papel ideal em um grupo de sobreviventes?",
+        "options": [
+          { "id": 1, "name": "O resolvedor de problemas que se adapta a tudo", "alias": "Python" },
+          { "id": 2, "name": "O líder confiável que mantém o grupo unido", "alias": "Java" },
+          { "id": 3, "name": "O guerreiro que enfrenta os zumbis sem medo", "alias": "C++" },
+          { "id": 4, "name": "O improvisador que sempre tem uma ideia na manga", "alias": "JavaScript" },
+          { "id": 5, "name": "O estrategista que otimiza cada ação do grupo", "alias": "C#" },
+          { "id": 6, "name": "O suporte silencioso que faz tudo funcionar nos bastidores", "alias": "PHP" },
+          { "id": 7, "name": "O organizador que gerencia recursos e informações", "alias": "SQL" },
+          { "id": 8, "name": "O inovador que traz novas ideias e estratégias", "alias": "TypeScript" }
         ]
       }
     ],
     "results": {
-      "Python": "Python é a linguagem versátil e poderosa...",
-      "JavaScript": "JavaScript é a linguagem que domina a web...",
-      "Java": "Java é a linguagem confiável e estruturada...",
-      "Ruby": "Ruby é a linguagem cheia de personalidade...",
-      "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar..."
+      "Python": "Flexível, adaptável e prática, ideal para resolver problemas rapidamente no caos",
+      "Java": "Confiável, estruturada e robusta, perfeita para manter a ordem em situações críticas",
+      "JavaScript": "Criativa e caótica, sempre improvisando soluções, mesmo que nem sempre perfeitas",
+      "C#": "Otimizada e eficiente, construindo defesas sólidas com um toque moderno",
+      "C++": "Poderosa e intensa, feita para enfrentar desafios com força e precisão",
+      "PHP": "Simples e funcional, trabalhando nos bastidores para manter tudo rodando",
+      "SQL": "Organizada e analítica, gerenciando recursos e informações com maestria",
+      "TypeScript": "Elegante e moderna, trazendo melhorias sofisticadas para o apocalipse"
     }
   },
   {
-    "id": 1,
-    "title": "DE aí?",
-    "image": "https://www.watelectronics.com/wp-content/uploads/different-programming-languages.png",
+    "id": 4,
+    "title": "Como você sobreviveria em um mundo onde apenas as linguagens de programação governam?",
+    "image": "zumbi.png",
     "questions": [
       {
         "id": 1,
-        "question": "Qual personagem de filme/série você mais se identifica?",
+        "question": "Você acorda neste mundo estranho. Qual é sua primeira ação?",
         "options": [
-          { "id": 1, "name": "Tony Stark (Iron Man)", "alias": "Python" },
-          { "id": 2, "name": "Neo (Matrix)", "alias": "JavaScript" },
-          { "id": 3, "name": "Hermione Granger (Harry Potter)", "alias": "Java" },
-          { "id": 4, "name": "Deadpool", "alias": "Ruby" },
-          { "id": 5, "name": "Capitão Nascimento (Tropa de Elite)", "alias": "C++" },
-          { "id": 6, "name": "Phoebe Buffay (Friends)", "alias": "PHP" }
+          { "id": 1, "name": "Explorar o ambiente e me adaptar às regras", "alias": "Python" },
+          { "id": 2, "name": "Procurar uma autoridade confiável para entender as leis", "alias": "Java" },
+          { "id": 3, "name": "Enfrentar qualquer desafio que apareça com força total", "alias": "C++" },
+          { "id": 4, "name": "Improvisar e tentar hackear o sistema", "alias": "JavaScript" },
+          { "id": 5, "name": "Analisar o terreno e planejar uma estratégia", "alias": "C#" },
+          { "id": 6, "name": "Fazer o básico para sobreviver sem chamar atenção", "alias": "PHP" },
+          { "id": 7, "name": "Coletar informações sobre tudo ao meu redor para me orientar", "alias": "SQL" },
+          { "id": 8, "name": "Ser ambicioso e procurar me integrar ao sistema", "alias": "TypeScript" }
         ]
       },
       {
         "id": 2,
-        "question": "Qual superpoder você gostaria de ter?",
+        "question": "Cada linguagem controla uma facção. Com qual você tenta se aliar primeiro?",
         "options": [
-          { "id": 1, "name": "Leitura de Mentes", "alias": "Ruby" },
-          { "id": 2, "name": "Superinteligência", "alias": "C++" },
-          { "id": 3, "name": "Voar", "alias": "JavaScript" },
-          { "id": 4, "name": "Teletransporte", "alias": "Python" },
-          { "id": 5, "name": "Regeneração", "alias": "Java" },
-          { "id": 6, "name": "Invisibilidade", "alias": "PHP" }
+          { "id": 1, "name": "A que resolve problemas de todos os tipos", "alias": "Python" },
+          { "id": 2, "name": "A que mantém a ordem e a estabilidade", "alias": "Java" },
+          { "id": 3, "name": "A que domina pela força bruta", "alias": "C++" },
+          { "id": 4, "name": "A que vive improvisando soluções", "alias": "JavaScript" },
+          { "id": 5, "name": "A que constrói tudo com precisão", "alias": "C#" },
+          { "id": 6, "name": "A que trabalha nos bastidores", "alias": "PHP" },
+          { "id": 7, "name": "A que que organiza e gerencia dados", "alias": "SQL" },
+          { "id": 8, "name": "A que melhora tudo o que toca", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Os líderes das linguagens chamam você para um desafio de sobrevivência. Como você se prepara?",
+        "options": [
+          { "id": 1, "name": "Reviso todas as informações disponíveis e aprendo com outros sobreviventes", "alias": "Python" },
+          { "id": 2, "name": "Elaboro um plano sólido e me certifico de que tudo está bem estruturado", "alias": "Java" },
+          { "id": 3, "name": "Faço testes rigorosos para garantir que meu plano seja eficiente", "alias": "C++" },
+          { "id": 4, "name": "Me adapto rapidamente ao desafio, mesmo sem um plano definido", "alias": "JavaScript" },
+          { "id": 5, "name": "Desenvolvo um sistema de defesa para garantir minha segurança", "alias": "C#" },
+          { "id": 6, "name": "Crio soluções criativas e improviso quando necessário", "alias": "PHP" },
+          { "id": 7, "name": "Registro todas as estratégias possíveis e analiso os padrões", "alias": "SQL" },
+          { "id": 8, "name": "Me certifico de que nenhuma regra foi quebrada antes de agir", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Você encontra um viajante perdido que não entende nada desse novo mundo. Como o ajuda?",
+        "options": [
+          { "id": 1, "name": "Mostro diferentes caminhos para ele aprender no próprio ritmo", "alias": "Python" },
+          { "id": 2, "name": "Explico as regras e o guio com um plano bem definido", "alias": "Java" },
+          { "id": 3, "name": "Dou instruções detalhadas para que ele seja eficiente desde o início", "alias": "C++" },
+          { "id": 4, "name": "Ensino ele na prática, sem me preocupar com a perfeição", "alias": "JavaScript" },
+          { "id": 5, "name": "Crio um ambiente seguro onde ele pode aprender com tranquilidade", "alias": "C#" },
+          { "id": 6, "name": "Explico do jeito mais fácil possível, sem complicações", "alias": "PHP" },
+          { "id": 7, "name": "Forneço todas as informações que ele pode precisar", "alias": "SQL" },
+          { "id": 8, "name": "Aconselho ele a seguir regras para evitar problemas no futuro", "alias": "TypeScript" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual recurso você priorizaria para sobreviver em um mundo governado por linguagens de programação?",
+        "options": [
+          { "id": 1, "name": "Inteligência Artificial e Automação", "alias": "Python" },
+          { "id": 2, "name": "Infraestrutura e Sistemas Robustos", "alias": "Java" },
+          { "id": 3, "name": "Sistemas de Segurança e Defesa", "alias": "C++" },
+          { "id": 4, "name": "Comunicação e Interfaces Interativas", "alias": "JavaScript" },
+          { "id": 5, "name": "Ferramentas de Realidade Virtual e Jogos", "alias": "C#" },
+          { "id": 6, "name": "Soluções Rápidas e Práticas", "alias": "PHP" },
+          { "id": 7, "name": "Bancos de Dados e Gestão de Informações", "alias": "SQL" },
+          { "id": 8, "name": "Sistemas Organizados e Previsíveis", "alias": "TypeScript" }
         ]
       }
     ],
@@ -152,7 +398,9 @@
       "Java": "Java é a linguagem confiável e estruturada...",
       "Ruby": "Ruby é a linguagem cheia de personalidade...",
       "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar..."
+      "PHP": "PHP é a linguagem que está em todo lugar...",
+      "C#": "C++ é a linguagem poderosa e complexa...",
+      "TypeScript": "PHP é a linguagem que está em todo lugar..."
     }
   }
 ]

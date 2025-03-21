@@ -1,6 +1,12 @@
 <div class="explore__container">
-    <div *ngFor="let quiz of quizList">
-        <img src="{{quiz.image}}" alt="">
-        <h1>{{quiz.title}}</h1>
+  <div *ngFor="let quiz of quizList"  class="explore__content">
+    <div>
+      <img src="{{ quiz.image }}" alt="{{ quiz.title }}" />
     </div>
+    <div>
+      <a [routerLink]="['/quizzes', quiz.id]">
+        <h1>{{ quiz.title }}</h1>
+      </a>
+    </div>
+  </div>
 </div>

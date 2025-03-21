@@ -1,15 +1,40 @@
-<div class="home__container">
-    <app-menu></app-menu>
-    
-    <div class="main-quizz__section">
-        <app-quizz></app-quizz>
-    </div>
-    
-    <div class="quizzes__section">
-        <h1>Explore</h1>
+<div>
+  <app-menu></app-menu>
+</div>
+
+<div *ngIf="quiz">
+  
+    <div class="quizz__container">
+      <div class="quizz__content">
+          <div *ngIf=!finished>
+              <h1>{{title}}</h1>
+          </div>
+          <div *ngIf=!finished class="quizz-question">
+              <h3>{{questionSelected.question}}</h3>
+          </div>
+          <div *ngIf=!finished class="quizz-options">
+              <button
+              *ngFor="let option of questionSelected.options, let i = index"
+              (click)="selectedOption(option.alias)"
+              class="btn_options">{{option.name}}</button>
+          </div>
+          <div *ngIf=finished class="quizz-result">
+              <h2>{{title | uppercase}}</h2>
+              <h1>Seu resultado é... {{answerResult | uppercase}}</h1>
+              <p>{{answerSelected}}</p>
+          </div>
+      </div>
+      <div class="quizz_image">
+          <img src="{{image}}" alt="">
+      </div>
     </div>
 
-    <div class="footer">
-        <app-footer></app-footer>
-    </div>
+  <div class="explore-section">
+    <h1>Explore mais quizzes</h1>
+    <app-explore></app-explore>
+  </div>
+
+  <div>
+    <app-footer></app-footer>
+  </div>
 </div>
