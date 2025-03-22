@@ -1,3 +1,7 @@
+https://br.freepik.com/search?format=search&last_filter=selection&last_value=1&query=video+game+antigo&selection=1
+Imagens gratuitas
+
+
 # Buzztrivia
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.

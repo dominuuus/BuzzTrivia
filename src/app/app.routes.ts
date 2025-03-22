@@ -11,6 +11,11 @@ export const routes: Routes = [
     },
 
     {
+        path: 'quizzes',
+        redirectTo: ''
+    },
+
+    {
         path: 'quizzes/:id',
         component: QuizzesComponent
     }

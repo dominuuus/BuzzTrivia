@@ -1,27 +1,51 @@
 img {
-    height: 5rem;
+    height: 10rem;
 }
 
 .explore__container {
     display: grid; 
-    grid-template-columns: repeat(3, 1fr);  
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 2rem;
 }
 
 .explore__content {
     display: flex;
+    gap: 1rem;
 }
 
 .explore__container h1 {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    align-items: last baseline;
+}
+
+.quizz-title {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-main);
+}
+
+a:hover {
+    color: var(--color-secondary);
 }
 
 @media screen and (max-width: 768px) {
     .explore__container {
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
     }
     
     .explore__content {
         justify-content: center;
         gap: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .explore__container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }

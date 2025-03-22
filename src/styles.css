@@ -12,7 +12,7 @@
     --color-white: #fff;
     --color-black: #000;
     --color-sectionOne: #ececec;
-    --color-sectionTwo: #ececec;
+    --color-sectionTwo: #dadada;
     --color-gray900: #282727;
     --color-button: #e7eaef;
     --font-main: "Boldonse", "Roboto", sans-serif;
@@ -20,6 +20,6 @@
 }
 
 body {
-    background-color: var(--color-sectionTwo);
+    background-color: var(--color-sectionOne);
     color: var(--color-main);
 }

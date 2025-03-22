@@ -1,123 +1,135 @@
 [
   {
     "id": 1,
-    "title": "Qual linguagem de programação seria sua parceira em um apocalipse zumbi?",
-    "image": "zumbi.png",
-    "questions": [
-      {
-        "id": 1,
-        "question": "Os zumbis estão vindo! Qual é seu primeiro instinto?",
-        "options": [
-          { "id": 1, "name": "Corro rápido para escapar", "alias": "Python" },
-          { "id": 2, "name": "Pego uma arma e vou lutar", "alias": "Java" },
-          { "id": 3, "name": "Crio um plano para evacuar em segurança", "alias": "C++" },
-          { "id": 4, "name": "Improviso uma defesa", "alias": "JavaScript" },
-          { "id": 5, "name": "Construo uma barricada para resistir", "alias": "C#" },
-          { "id": 6, "name": "Uso algo simples e prático, como uma armadilha improvisada", "alias": "PHP" },
-          { "id": 7, "name": "Organizo os suprimentos e planejo as defesas", "alias": "SQL" },
-          { "id": 8, "name": "Crio barreiras de proteção antes mesmo do ataque acontecer", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 2,
-        "question": "Você encontra sobreviventes. Como você ajuda o grupo?",
-        "options": [
-          { "id": 1, "name": "Resolvendo problemas práticos de forma rápida", "alias": "Python" },
-          { "id": 2, "name": "Assumindo o controle", "alias": "Java" },
-          { "id": 3, "name": "Desenvolvendo uma estratégia detalhada para todos seguirem", "alias": "C++" },
-          { "id": 4, "name": "Criando soluções criativas e inesperadas", "alias": "JavaScript" },
-          { "id": 5, "name": "Construindo defesas robustas que protejam o grupo", "alias": "C#" },
-          { "id": 6, "name": "Mantendo as coisas funcionando nos bastidores com eficiência", "alias": "PHP" },
-          { "id": 7, "name": "Catalogando recursos e suprimentos para uso otimizado", "alias": "SQL" },
-          { "id": 8, "name": "Melhorando as ideias do grupo com novas sugestões", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 3,
-        "question": "Qual arma você escolheria contra os zumbis?",
-        "options": [
-          { "id": 1, "name": "Faca: vai servir para qualquer situação", "alias": "Python" },
-          { "id": 2, "name": "Espada: clássica e confiável", "alias": "Java" },
-          { "id": 3, "name": "Machado: pesado para ataques poderosos", "alias": "C++" },
-          { "id": 4, "name": "Improviso com um estilingue turbinado", "alias": "JavaScript" },
-          { "id": 5, "name": "Rifle: bem projetado para máxima eficiência", "alias": "C#" },
-          { "id": 6, "name": "Taco: simples, funcional e nunca te deixa na mão", "alias": "PHP" },
-          { "id": 7, "name": "Arco e flecha: tenho boa pontaria", "alias": "SQL" },
-          { "id": 8, "name": "Explosivos: os mais modernos e eficientes", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 4,
-        "question": "Você precisa atravessar uma cidade infestada. Qual é sua estratégia?",
-        "options": [
-          { "id": 1, "name": "Se adaptar ao caminho, evitando zumbis com agilidade", "alias": "Python" },
-          { "id": 2, "name": "Seguir um plano para chegar ao destino", "alias": "Java" },
-          { "id": 3, "name": "Eliminar os zumbis no caminho com armas poderosas", "alias": "C++" },
-          { "id": 4, "name": "Tentar um caminho alternativo", "alias": "JavaScript" },
-          { "id": 5, "name": "Planejar uma rota otimizada e executá-la com precisão", "alias": "C#" },
-          { "id": 6, "name": "Focar em atalhos práticos, sem complicações", "alias": "PHP" },
-          { "id": 7, "name": "Mapear a cidade e usar os dados para evitar áreas perigosas", "alias": "SQL" },
-          { "id": 8, "name": "Escolher um caminho seguro, com mínimo esforço", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 5,
-        "question": "Você acha um rádio quebrado. O que faz?",
-        "options": [
-          { "id": 1, "name": "Tenta consertá-lo rapidamente com ajustes simples", "alias": "Python" },
-          { "id": 2, "name": "Segue um método comprovado para repará-lo com segurança", "alias": "Java" },
-          { "id": 3, "name": "Desmonta tudo e reconstrói com máxima precisão", "alias": "C++" },
-          { "id": 4, "name": "Mexe nos fios até funcionar", "alias": "JavaScript" },
-          { "id": 5, "name": "Otimiza o conserto para garantir desempenho perfeito", "alias": "C#" },
-          { "id": 6, "name": "Faz o básico para ele voltar a funcionar logo", "alias": "PHP" },
-          { "id": 7, "name": "Analisa os circuitos e organiza os reparos por prioridade", "alias": "SQL" },
-          { "id": 8, "name": "Conserta com uma abordagem moderna e elegante", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 6,
-        "question": "Qual é o maior desafio do apocalipse para você?",
-        "options": [
-          { "id": 1, "name": "Lidar com situações imprevisíveis o tempo todo", "alias": "Python" },
-          { "id": 2, "name": "A falta de estrutura e organização no caos", "alias": "Java" },
-          { "id": 3, "name": "Sobreviver sem poder usar toda sua força potencial", "alias": "C++" },
-          { "id": 4, "name": "Ter que improvisar sem tempo para planejar", "alias": "JavaScript" },
-          { "id": 5, "name": "Encontrar falhas que poderiam ser evitadas com mais cuidado", "alias": "C#" },
-          { "id": 6, "name": "A simplicidade excessiva das coisas ao seu redor", "alias": "PHP" },
-          { "id": 7, "name": "Não ter dados suficientes para tomar decisões", "alias": "SQL" },
-          { "id": 8, "name": "As armas não serem suficientes para combater os zumbis", "alias": "TypeScript" }
-        ]
-      },
-      {
-        "id": 7,
-        "question": "Qual seria seu papel ideal em um grupo de sobreviventes?",
-        "options": [
-          { "id": 1, "name": "O resolvedor de problemas que se adapta a tudo", "alias": "Python" },
-          { "id": 2, "name": "O líder confiável que mantém o grupo unido", "alias": "Java" },
-          { "id": 3, "name": "O guerreiro que enfrenta os zumbis sem medo", "alias": "C++" },
-          { "id": 4, "name": "O improvisador que sempre tem uma ideia na manga", "alias": "JavaScript" },
-          { "id": 5, "name": "O estrategista que otimiza cada ação do grupo", "alias": "C#" },
-          { "id": 6, "name": "O suporte silencioso que faz tudo funcionar nos bastidores", "alias": "PHP" },
-          { "id": 7, "name": "O organizador que gerencia recursos e informações", "alias": "SQL" },
-          { "id": 8, "name": "O inovador que traz novas ideias e estratégias", "alias": "TypeScript" }
-        ]
+    "title":"Descubra qual linguagem de programação combina com seu estilo geek!",
+    "image": "geek.png",
+    "cardTag": [""],
+    "questions":[
+        {
+          "id":1,
+          "question": "Qual personagem de filme/série você mais se identifica?",
+          "options":[
+            {"id": 1, "name":"Tony Stark (Iron Man)", "alias":"Python"},
+            {"id": 2, "name":"Neo (Matrix)", "alias":"JavaScript"},
+            {"id": 3, "name":"Hermione Granger (Harry Potter)", "alias":"Java"},
+            {"id": 4, "name":"Deadpool", "alias":"Ruby"},
+            {"id": 5, "name":"Capitão Nascimento (Tropa de Elite)", "alias":"C++"},
+            {"id": 6, "name":"Phoebe Buffay (Friends)", "alias":"PHP"}
+          ]
+        },
+        {
+          "id":2,
+          "question": "Qual superpoder você gostaria de ter?",
+          "options":[
+            {"id": 1, "name":"Leitura de Mentes", "alias":"Ruby"},
+            {"id": 2, "name":"Superinteligência", "alias":"C++"},
+            {"id": 3, "name":"Voar", "alias":"JavaScript"},
+            {"id": 4, "name":"Teletransporte", "alias":"Python"},
+            {"id": 5, "name":"Regeneração", "alias":"Java"},
+            {"id": 6, "name":"Invisibilidade", "alias":"PHP"}       
+  ]
+        },
+        {
+          "id":3,
+          "question": "Qual é o seu estilo de resolver problemas?",
+          "options":[
+            {"id": 4, "name":"Improviso e adapto conforme necessário", "alias":"Ruby"},
+            {"id": 6, "name":"Prefiro soluções rápidas e diretas", "alias":"PHP"},
+            {"id": 3, "name":"Planejo tudo antes de agir", "alias":"Java"},
+            {"id": 2, "name":"Gosto de frameworks e ferramentas prontas", "alias":"JavaScript"},
+            {"id": 1, "name":"Gosto de experimentar e aprender no processo", "alias":"Python"},
+            {"id": 5, "name":"Analiso profundamente antes de agir", "alias":"C++"}
+          ]
+        },
+        {
+          "id":4,
+          "question": "Qual filme/série de ficção científica você mais gosta?",
+          "options":[
+            {"id": 5, "name":"Star Wars", "alias":"C++"},
+            {"id": 2, "name":"Matrix", "alias":"JavaScript"},
+            {"id": 1, "name":"Ex Machina", "alias":"Python"},
+            {"id": 6, "name":"Mad Max", "alias":"PHP"},
+            {"id": 3, "name":"Blade Runner", "alias":"Java"},
+            {"id": 4, "name":"Black Mirror", "alias":"Ruby"}
+          ]
+        },
+        {
+          "id":5,
+          "question": "Qual personagem de filme/série você seria em um projeto de equipe?",
+          "options":[
+            {"id": 3, "name":"Líder (Capitão América)", "alias":"Java"},
+            {"id": 4, "name":"Comediante (Deadpool)", "alias":"Ruby"},
+            {"id": 2, "name":"Visionário (Tony Stark)", "alias":"JavaScript"},
+            {"id": 5, "name":"Estrategista (Batman)", "alias":"C++"},
+            {"id": 6, "name":"Facilitador (Phoebe Buffay)", "alias":"PHP"},
+            {"id": 1, "name":"Criativo (Sherlock Holmes)", "alias":"Python"}
+          ]
+        },
+        {
+          "id":6,
+          "question": "Qual é o seu nível de paciência para aprender algo novo?",
+          "options":[
+            {"id": 6, "name":"Prefiro algo que funcione rápido, mesmo que não seja perfeito", "alias":"PHP"},
+            {"id": 1, "name":"Gosto de aprender com ferramentas prontas", "alias":"Python"},
+            {"id": 3, "name":"Tenho muita paciência", "alias":"Java"},
+            {"id": 2, "name":"Prefiro algo mais fácil e rápido", "alias":"JavaScript"},
+            {"id": 5, "name":"Adoro mergulhar em detalhes", "alias":"C++"},
+            {"id": 4, "name":"Gosto de desafios, mas com recompensas rápidas", "alias":"Ruby"}
+          ]
+        },
+        {
+          "id":7,
+          "question": "Qual é o seu gênero de filme/série favorito?",
+          "options":[
+            {"id": 4, "name":"Comédia", "alias":"Ruby"},
+            {"id": 3, "name":"Drama", "alias":"Java"},
+            {"id": 6, "name":"Documentário", "alias":"PHP"},
+            {"id": 2, "name":"Fantasia", "alias":"JavaScript"},
+            {"id": 1, "name":"Ficção Científica", "alias":"Python"},
+            {"id": 5, "name":"Suspense", "alias":"C++"}
+          ]
+        },
+        {
+          "id":8,
+          "question": "Qual é a sua relação com bugs e erros?",
+          "options":[
+            {"id": 1, "name":"Aprendo com eles", "alias":"Python"},
+            {"id": 4, "name":"Encaro como desafios", "alias":"Ruby"},
+            {"id": 2, "name":"Gosto de consertar rapidamente", "alias":"JavaScript"},
+            {"id": 6, "name":"Improviso soluções rápidas", "alias":"PHP"},
+            {"id": 3, "name":"Prefiro evitar ao máximo", "alias":"Java"},
+            {"id": 5, "name":"Analiso profundamente cada erro", "alias":"C++"}
+          ]
+        },
+        {
+          "id":9,
+          "question": "Qual é o seu objetivo ao programar?",
+          "options":[
+            {"id": 5, "name":"Desenvolver sistemas de alto desempenho", "alias":"C++"},
+            {"id": 4, "name":"Desenvolver aplicativos", "alias":"Ruby"},
+            {"id": 1, "name":"Trabalhar com dados e IA", "alias":"Python"},
+            {"id": 2, "name":"Criar sites incríveis", "alias":"JavaScript"},
+            {"id": 6, "name":"Criar aplicações web rápidas", "alias":"PHP"},
+            {"id": 3, "name":"Criar aplicações robustas e portáteis", "alias":"Java"}
+  
+          ]
+        }
+        
+      ],
+      "results":{
+        "Python": "Com Python, você é o Tony Stark da programação: versátil, criativo e sempre um passo à frente! Python é a linguagem versátil e poderosa que te permite 'teletransportar' entre diferentes áreas, desde automação até inteligência artificial. Com uma abordagem prática e intuitiva, você aprende com os erros e usa ferramentas prontas para criar soluções incríveis. Ideal para quem ama ficção científica e quer transformar ideias em realidade! ",
+        "JavaScript": "Com JavaScript, você é o Neo da programação: dominando a Matrix da web e transformando ideias em realidade! JavaScript é a linguagem que domina a web, permitindo que você 'voar' entre front-end, back-end e desenvolvimento mobile. Com frameworks e ferramentas prontas, você resolve problemas de forma rápida e eficiente, sempre pronto para consertar bugs e inovar. Ideal para quem ama fantasia e quer criar experiências digitais mágicas!",
+        "Java": "Com Java, você é a Hermione Granger da programação: organizada, confiável e sempre pronta para liderar! Java é a linguagem confiável e estruturada que se regenera e se adapta com o tempo, sempre evoluindo para atender às demandas modernas. Com planejamento e paciência, você evita erros e cria soluções robustas e portáteis, prontas para qualquer desafio. Ideal para quem ama drama e busca confiabilidade em seus projetos!",
+        "Ruby": "Com Ruby, você é o Deadpool da programação: divertido, ágil e sempre pronto para surpreender! Ruby é a linguagem cheia de personalidade e 'mágica', que parece ler a mente do programador para tornar o desenvolvimento rápido e prazeroso. Com improvisação e adaptação, você encara erros como desafios e cria soluções criativas. Ideal para quem ama comédia e busca recompensas rápidas com um toque de diversão!",
+        "C++": "Com C++, você é o Capitão Nascimento da programação: poderoso, estratégico e sempre no controle! C++ é a linguagem poderosa e complexa, que exige superinteligência e análise profunda para ser dominada. Com uma abordagem estratégica e meticulosa, você mergulha nos detalhes e resolve cada erro com precisão. Ideal para quem ama suspense e busca criar sistemas robustos e eficientes! ",
+        "PHP": "Com PHP, você é a Phoebe Buffay da programação: prática, ágil e sempre pronta para facilitar a vida! PHP é a linguagem que está em todo lugar, mas muitas vezes passa despercebida, assim como alguém com o poder da invisibilidade. Com soluções rápidas e diretas, você improvisa e faz as coisas funcionarem, mesmo que não sejam perfeitas. Ideal para quem ama documentários e busca praticidade no desenvolvimento web!"
       }
-    ],
-    "results": {
-      "Python": "Flexível, adaptável e prática, ideal para resolver problemas rapidamente no caos",
-      "Java": "Confiável, estruturada e robusta, perfeita para manter a ordem em situações críticas",
-      "JavaScript": "Criativa e caótica, sempre improvisando soluções, mesmo que nem sempre perfeitas",
-      "C#": "Otimizada e eficiente, construindo defesas sólidas com um toque moderno",
-      "C++": "Poderosa e intensa, feita para enfrentar desafios com força e precisão",
-      "PHP": "Simples e funcional, trabalhando nos bastidores para manter tudo rodando",
-      "SQL": "Organizada e analítica, gerenciando recursos e informações com maestria",
-      "TypeScript": "Elegante e moderna, trazendo melhorias sofisticadas para o apocalipse"
-    }
   },
   {
     "id": 2,
     "title": "Como você sobreviveria em um mundo onde apenas as linguagens de programação governam?",
-    "image": "zumbi.png",
+    "image": "mundo.png",
+    "cardTag": [""],
     "questions": [
       {
         "id": 1,
@@ -191,20 +203,401 @@
       }
     ],
     "results": {
-      "Python": "Python é a linguagem versátil e poderosa...",
-      "JavaScript": "JavaScript é a linguagem que domina a web...",
-      "Java": "Java é a linguagem confiável e estruturada...",
-      "Ruby": "Ruby é a linguagem cheia de personalidade...",
-      "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar...",
-      "C#": "C++ é a linguagem poderosa e complexa...",
-      "TypeScript": "PHP é a linguagem que está em todo lugar..."
+      "Python": "Você é o mestre da adaptação! Em um mundo governado por linguagens, você usa Python para explorar o ambiente e se adaptar às regras. Sua prioridade? Inteligência Artificial e Automação para prever perigos e otimizar recursos. No grupo, você ajuda os outros mostrando diferentes caminhos para aprender no próprio ritmo. Python é sua parceira ideal para sobreviver com inteligência e versatilidade!",
+      "JavaScript": "Você é o improvisador criativo! Em um mundo governado por linguagens, você se junta a JavaScript para viver improvisando soluções. Sua prioridade? Comunicação e Interfaces Interativas para coordenar grupos e acessar informações. No grupo, você ensina na prática, sem se preocupar com a perfeição. JavaScript é sua aliada para sobreviver com criatividade e flexibilidade!",
+      "Java": "Você é o líder confiável! Em um mundo governado por linguagens, você procura Java para manter a ordem e a estabilidade. Sua prioridade? Infraestrutura e Sistemas Robustos para garantir segurança a longo prazo. No grupo, você explica as regras e guia todos com um plano bem definido. Java é sua aliada para criar sistemas confiáveis e manter o grupo unido!",
+      "SQL": "Você é o organizador meticuloso! Em um mundo governado por linguagens, você se alia a SQL para organizar e gerenciar dados. Sua prioridade? Bancos de Dados e Gestão de Informações para tomar decisões estratégicas. No grupo, você fornece todas as informações que os outros podem precisar. SQL é sua parceira para sobreviver com organização e planejamento!",
+      "C++": "Você é o guerreiro implacável! Em um mundo governado por linguagens, você se alia a C++ para dominar pela força bruta. Sua prioridade? Sistemas de Segurança e Defesa para enfrentar qualquer desafio. No grupo, você dá instruções detalhadas para garantir eficiência desde o início. C++ é sua parceira para criar soluções poderosas e eficientes!",
+      "PHP": "Você é o suporte essencial! Em um mundo governado por linguagens, você trabalha com PHP nos bastidores. Sua prioridade? Soluções Rápidas e Práticas para resolver problemas imediatos. No grupo, você explica tudo do jeito mais fácil possível, sem complicações. PHP é sua aliada para sobreviver com simplicidade e eficiência!",
+      "C#": "Você é o estrategista perfeccionista! Em um mundo governado por linguagens, você escolhe C# para construir tudo com precisão. Sua prioridade? Ferramentas de Realidade Virtual e Jogos para treinar habilidades e manter o moral alto. No grupo, você cria um ambiente seguro para todos aprenderem com tranquilidade. C# é sua parceira para criar soluções otimizadas e impecáveis!",
+      "TypeScript": "Você é o inovador moderno! Em um mundo governado por linguagens, você se junta a TypeScript para melhorar tudo o que toca. Sua prioridade? Sistemas Organizados e Previsíveis para evitar erros e imprevistos. No grupo, você aconselha todos a seguir regras para evitar problemas no futuro. TypeScript é sua aliada para sobreviver com inovação e segurança!"
     }
   },
   {
     "id": 3,
+    "title": "Qual invenção tecnológica histórica você teria criado?",
+    "image": "invencao.png",
+    "cardTag": [""],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual dessas frases melhor descreve você?",
+        "options": [
+          { "id": 1, "name": "Se está funcionando, não mexe!", "alias": "Notebook" },
+          { "id": 2, "name": "E se a gente fizesse isso… mas melhor?", "alias": "Avião" },
+          { "id": 3, "name": "A eficiência é a alma do negócio", "alias": "Código de Barras" },
+          { "id": 4, "name": "Nada que um pouco de fita adesiva e criatividade não resolva", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você lida com problemas do dia a dia?",
+        "options": [
+          { "id": 1, "name": "Eu tento automatizar tudo para evitar trabalho manual", "alias": "Notebook" },
+          { "id": 2, "name": "Vou testando até encontrar uma solução que funcione", "alias": "Avião" },
+          { "id": 3, "name": "Prefiro uma abordagem lógica e organizada", "alias": "Código de Barras" },
+          { "id": 4, "name": "Gosto de improvisar e ver no que dá", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Como seria o seu laboratório de invenções?",
+        "options": [
+          { "id": 1, "name": "Um ambiente ultra tecnológico, cheio de telas e robôs", "alias": "Notebook" },
+          { "id": 2, "name": "Um lugar bagunçado, com protótipos de tudo quanto é coisa espalhados", "alias": "Avião" },
+          { "id": 3, "name": "Um espaço organizado, com cada ferramenta no seu devido lugar", "alias": "Código de Barras" },
+          { "id": 4, "name": "Uma garagem improvisada, mas cheia de grandes ideias", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que mais te motiva a inventar algo?",
+        "options": [
+          { "id": 1, "name": "Facilitar a vida das pessoas e deixar o mundo mais prático", "alias": "Notebook" },
+          { "id": 2, "name": "Criar algo revolucionário que ninguém nunca pensou antes", "alias": "Avião" },
+          { "id": 3, "name": "Resolver um problema específico de forma brilhante", "alias": "Código de Barras" },
+          { "id": 4, "name": "Porque sim, ué! Experimentar é sempre divertido", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual dessas invenções você acha mais impressionante?",
+        "options": [
+          { "id": 1, "name": "Internet – sem ela, nada seria o mesmo", "alias": "Notebook" },
+          { "id": 2, "name": "Avião – desafiar a gravidade é genial", "alias": "Avião" },
+          { "id": 3, "name": "Código de barras – parece simples, mas mudou tudo", "alias": "Código de Barras" },
+          { "id": 4, "name": "Micro-ondas – comida pronta em minutos? Genial!", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Se você pudesse viajar no tempo para criar algo antes de todo mundo, o que escolheria?",
+        "options": [
+          { "id": 1, "name": "O computador pessoal – Bill Gates e Steve Jobs que lutem", "alias": "Notebook" },
+          { "id": 2, "name": "A lâmpada – Thomas Edison ia ficar com inveja", "alias": "Avião" },
+          { "id": 3, "name": "A roda – começando do básico para dominar o mundo", "alias": "Código de Barras" },
+          { "id": 4, "name": "O videogame – porque diversão é essencial", "alias": "VideoGame" }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Se sua invenção fosse um fracasso, o que você faria?",
+        "options": [
+          { "id": 1, "name": "Melhoraria até dar certo", "alias": "Notebook" },
+          { "id": 2, "name": "Daria um jeito de convencer as pessoas de que é incrível", "alias": "Avião" },
+          { "id": 3, "name": "Criaria outra coisa ainda melhor", "alias": "Código de Barras" },
+          { "id": 4, "name": "Chamaria de “versão beta” e partiria para a próxima", "alias": "VideoGame" }
+        ]
+      }
+    ],
+    "results": {
+      "Avião": "Você é o visionário que desafia os limites! Se tivesse a chance de criar algo antes de todo mundo, seria o avião – afinal, desafiar a gravidade é genial! Seu laboratório? Um lugar bagunçado, cheio de protótipos e ideias revolucionárias. Quando algo dá errado, você convence as pessoas de que é incrível. Sua motivação? Criar algo que ninguém nunca pensou antes. Você é o inventor que faz o impossível acontecer!",
+      "Código de Barras": "Você é o mestre da praticidade! Se tivesse a chance de criar algo antes de todo mundo, seria o código de barras – simples, mas revolucionário. Seu laboratório? Um espaço organizado, com cada ferramenta no seu lugar. Quando algo dá errado, você cria outra coisa ainda melhor. Sua motivação? Resolver problemas específicos de forma brilhante. Você é o inventor que transforma o básico em algo essencial!",
+      "Notebook": "Você é o facilitador da tecnologia! Se tivesse a chance de criar algo antes de todo mundo, seria o computador pessoal – afinal, sem ele, nada seria o mesmo. Seu laboratório? Um ambiente ultra tecnológico, cheio de telas e robôs. Quando algo dá errado, você melhora até dar certo. Sua motivação? Facilitar a vida das pessoas e deixar o mundo mais prático. Você é o inventor que traz a tecnologia para o dia a dia!",
+      "VideoGame": "Você é o criador da diversão! Se tivesse a chance de criar algo antes de todo mundo, seria o videogame – porque diversão é essencial. Seu laboratório? Uma garagem improvisada, mas cheia de grandes ideias. Quando algo dá errado, você chama de “versão beta” e parte para a próxima. Sua motivação? Experimentar e se divertir no processo. Você é o inventor que transforma a criatividade em entretenimento!"
+    }
+  },
+  {
+    "id": 4,
+    "title": "Em qual era tecnológica você deveria ter nascido?",
+    "image": "eras.png",
+    "cardTag": [""],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Qual ambiente de trabalho ideal para você?",
+        "options": [
+          { "id": 1, "name": "Um laboratório cheio de máquinas gigantes e fitas magnéticas", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "Um escritório dos anos 80, com monitores de fósforo verde e muita cafeína", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "Um cubículo dos anos 90, com Windows 95 rodando e um telefone fixo", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "Uma startup moderna, cheia de telas touch e puffs coloridos", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "Um coworking futurista, onde tudo é controlado por IA", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "Uma realidade virtual onde você programa apenas com o pensamento", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você aprende melhor?",
+        "options": [
+          { "id": 1, "name": "Lendo um manual técnico de 500 páginas", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "Mexendo no código sem medo e testando até funcionar", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "Seguindo tutoriais em vídeo e fóruns de programadores", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "Fazendo bootcamps e cursos online interativos", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "Pedindo dicas para um assistente de IA", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "Apenas descrevendo o que quero e deixando a IA programar para mim", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual dessas invenções você mais admira?",
+        "options": [
+          { "id": 1, "name": "O primeiro computador ENIAC – sem ele, nada existiria!", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "O disquete – armazenar 1,44MB nunca pareceu tão revolucionário", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "A internet discada – mesmo com o barulho irritante, mudou o mundo", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "O smartphone – um computador no bolso!", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "A computação em nuvem – sem mais 'onde salvei esse arquivo?'", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "A IA generativa – finalmente algo que me entende (quase)", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Como seria o seu estilo de programação?",
+        "options": [
+          { "id": 1, "name": "Digitando comandos em telas verdes e pretas, como nos primórdios", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "Escrevendo código estruturado e bem documentado", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "Criando software que roda direto do CD-ROM e exige 30 disquetes", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "Desenvolvendo apps intuitivos e responsivos", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "Automatizando processos e treinando IA para me ajudar", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "Não programando – só pedindo para um sistema avançado fazer tudo por mim", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Qual dessas frases combina mais com você?",
+        "options": [
+          { "id": 1, "name": "No meu tempo, os computadores ocupavam um prédio inteiro", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "A programação raiz é a melhor – sem frescura, só código", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "Nada supera a emoção de programar em um PC com Windows 95", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "Se não tem um app para isso, eu crio um agora", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "Tudo precisa ser automatizado. O futuro é a eficiência", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "Eu só mando comandos por voz e espero a IA resolver", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Se pudesse escolher um mentor, quem seria?",
+        "options": [
+          { "id": 1, "name": "Alan Turing – o pai da computação moderna", "alias": "A Era dos Pioneiros (Anos 50-70)" },
+          { "id": 2, "name": "Dennis Ritchie – criador da linguagem C, a base de tudo", "alias": "A Era dos Primeiros Programadores (Anos 70-80)" },
+          { "id": 3, "name": "Linus Torvalds – criador do Linux e defensor do código aberto", "alias": "A Revolução dos PCs (Anos 80-90)" },
+          { "id": 4, "name": "Steve Jobs – porque estilo importa tanto quanto funcionalidade", "alias": "A Era dos Dispositivos Móveis (Anos 2000-2010)" },
+          { "id": 5, "name": "Elon Musk – porque inovação sem limites é meu lema", "alias": "A Era da Computação em Nuvem e Automação (2010-2020)" },
+          { "id": 6, "name": "Uma IA superinteligente que responde instantaneamente às minhas dúvidas", "alias": "O Futuro da IA e do Metaverso (2020+)" }
+        ]
+      }
+    ],
+    "results": {
+      "A Era dos Pioneiros (Anos 50-70)": "🏛️ Você deveria ter nascido na época dos primeiros computadores, quando a programação era feita com cartões perfurados e máquinas gigantes. Provavelmente estaria desenvolvendo algo em Fortran ou COBOL.",
+      "A Era dos Primeiros Programadores (Anos 70-80)": "🖥️ Seu lugar é no auge do nascimento das linguagens modernas, quando C e Assembly reinavam. Você adora código raiz e prefere ter controle absoluto sobre cada linha de programação.",
+      "A Revolução dos PCs (Anos 80-90)": "💾 Sua alma pertence à época dos primeiros computadores pessoais, dos modems barulhentos e dos disquetes. Você provavelmente seria um mestre em C, C++ ou PHP, criando sites e software quando tudo ainda era mato.",
+      "A Era dos Dispositivos Móveis (Anos 2000-2010)": "📱 Você combina com o boom dos smartphones, redes sociais e interfaces modernas. Seu estilo de código se encaixa com JavaScript, TypeScript ou Python, sempre criando apps e experiências interativas.",
+      "A Era da Computação em Nuvem e Automação (2010-2020)": "☁️ Você nasceu para a eficiência e adora tecnologia que simplifica processos. SQL para big data e Python para IA seriam suas ferramentas favoritas para dominar esse mundo de dados e automação.",
+      "O Futuro da IA e do Metaverso (2020+)": "🤖 Você deveria nascer no futuro, onde tudo é automatizado e a programação está sendo redefinida. Linguagens como Python para IA, R para análise de dados e até novas linguagens ainda a serem inventadas seriam seu playground digital."
+    }
+  },
+  {
+    "id": 5,
+    "title": "Qual sistema operacional reflete sua personalidade?",
+    "image": "sistemaoperacional.png",
+    "cardTag": [""],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Como você lida com mudanças?",
+        "options": [
+          { "id": 1, "name": "Prefiro estabilidade, nada de surpresas inesperadas", "alias": "Windows" },
+          { "id": 2, "name": "Me adapto bem, mas gosto de ter controle sobre tudo", "alias": "Linux" },
+          { "id": 3, "name": "Adoro novidades, atualizem tudo que eu resolvo depois", "alias": "Android" },
+          { "id": 4, "name": "Mudanças? Eu que defino como as coisas vão funcionar", "alias": "macOS" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como você reage quando algo dá errado?",
+        "options": [
+          { "id": 1, "name": "Respiro fundo e sigo protocolos para resolver", "alias": "Windows" },
+          { "id": 2, "name": "Tento consertar sozinho, mesmo que precise quebrar umas regras", "alias": "Linux" },
+          { "id": 3, "name": "Pergunto no Google, no Stack Overflow e, se nada resolver, reinicio", "alias": "Android" },
+          { "id": 4, "name": "Nada dá errado comigo, sempre tenho um plano B", "alias": "macOS" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual o seu ambiente de trabalho ideal?",
+        "options": [
+          { "id": 1, "name": "Tudo organizado e padronizado, sem bagunça", "alias": "Windows" },
+          { "id": 2, "name": "Personalizado do meu jeito, com tudo otimizado", "alias": "Linux" },
+          { "id": 3, "name": "Bagunçado, mas funcional—e cheio de atalhos que só eu entendo", "alias": "Android" },
+          { "id": 4, "name": "Meu ambiente é único, e só quem realmente entende sabe usar", "alias": "macOS" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "O que seus amigos dizem sobre você?",
+        "options": [
+          { "id": 1, "name": "Confiável e estável, sempre pronto para ajudar", "alias": "Windows" },
+          { "id": 2, "name": "Independente e criativo, faço as coisas do meu jeito", "alias": "Linux" },
+          { "id": 3, "name": "Divertido e caótico, mas sempre dou um jeito de funcionar", "alias": "Android" },
+          { "id": 4, "name": "Misterioso e exclusivo, poucos realmente me conhecem bem", "alias": "macOS" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Se você fosse um dispositivo tecnológico, qual seria?",
+        "options": [
+          { "id": 1, "name": "Um servidor robusto, sempre funcionando sem falhas", "alias": "Windows" },
+          { "id": 2, "name": "Um PC gamer altamente customizável", "alias": "Linux" },
+          { "id": 3, "name": "Um smartphone cheio de apps, rodando mil coisas ao mesmo tempo", "alias": "Android" },
+          { "id": 4, "name": "Um sistema ultrasseguro que poucos sabem usar", "alias": "macOS" }
+        ]
+      }
+    ],
+    "results": {
+      "Windows": "Você é o Windows 🏢 Assim como o sistema operacional mais usado no mundo, você é confiável, acessível e está sempre presente. As pessoas sabem que podem contar com você para resolver problemas do dia a dia, mas às vezes exigem mais de você do que deveriam, fazendo com que trave sob pressão. Você gosta de seguir regras, prefere ambientes previsíveis e valoriza a estabilidade acima de tudo. No entanto, quando algo sai do controle, pode ser necessário um 'reinício' para voltar ao normal.",
+      "Linux": "Você é o Linux 🐧 Independente e cheio de possibilidades, você valoriza a liberdade e prefere fazer as coisas do seu jeito. Adaptável, criativo e sempre buscando otimizações, você não gosta de seguir padrões impostos e adora explorar novas maneiras de resolver problemas. Apesar de sua versatilidade, algumas pessoas te acham complicado demais e até evitam pedir sua ajuda. Mas quem realmente te conhece, sabe que você é uma das melhores opções disponíveis",
+      "Android": "Você é o Android 🤖 Você é dinâmico, versátil e está sempre pronto para qualquer situação. Cheio de energia e flexível, gosta de experimentar novas possibilidades, mas sua grande variedade de opções pode ser tanto uma vantagem quanto uma fonte de caos. Se adapta bem a qualquer ambiente e está sempre rodeado de pessoas, mas às vezes pode ser alvo de críticas por ser um pouco bagunçado ou inconsistente. Mesmo assim, você sempre encontra um jeito de fazer as coisas funcionarem",
+      "macOS": "Você é o macOS 🍏 Elegante, eficiente e sofisticado, você gosta de ambientes bem projetados e funcionais. Você valoriza a organização e a experiência premium em tudo o que faz, mas também pode parecer um pouco exclusivo demais para quem não está no seu círculo. Apesar de ser altamente eficiente e confiável, pode não ter tanta paciência para lidar com quem não entende sua lógica. No entanto, quando as pessoas te conhecem de verdade, descobrem que seu sistema é otimizado para o sucesso"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Qual videogame clássico seria seu melhor amigo tech?",
+    "image": "gameretro.png",
+    "cardTag": [""],
+    "questions": [
+      {
+        "id": 1,
+        "question": "Como você prefere passar seu tempo livre?",
+        "options": [
+          { "id": 1, "name": "Jogando sozinho e curtindo uma boa nostalgia", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Reunindo os amigos para desafios e competições", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Explorando novos mundos e aventuras épicas", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Me divertindo com games simples, mas viciantes", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Personalizando tudo e ajustando para minha experiência", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Desbravando tecnologias antigas e inovadoras ao mesmo tempo", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Testando tudo que é novo, mas sem perder o charme retrô", "alias": "Game Boy" },
+          { "id": 8, "name": "Criando e compartilhando conteúdo sobre jogos", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 2,
+        "question": "Como seus amigos te descreveriam?",
+        "options": [
+          { "id": 1, "name": "Clássico, confiável e cheio de histórias para contar", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Competitivo e cheio de energia", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Imaginativo, sempre em busca de aventuras", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Divertido e acessível, todo mundo gosta de você", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Criativo e um pouco obcecado por personalização", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Antenado em tecnologia, sempre misturando o antigo com o novo", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Inovador, mas nunca esquece das raízes", "alias": "Game Boy" },
+          { "id": 8, "name": "Social e comunicativo, adora compartilhar experiências", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 3,
+        "question": "Qual é o seu maior defeito?",
+        "options": [
+          { "id": 1, "name": "Às vezes sou teimoso e não aceito mudanças", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Me irrito fácil quando não ganho", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Fico preso em histórias e esqueço do mundo real", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Nem sempre levo as coisas a sério", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Passo tempo demais ajustando detalhes que ninguém percebe", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Vivo preso entre o passado e o futuro", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Tenho tanta coisa acumulada que às vezes nem sei por onde começar", "alias": "Game Boy" },
+          { "id": 8, "name": "Me distraio fácil com qualquer novidade", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 4,
+        "question": "Se você fosse um jogo, qual seria seu estilo?",
+        "options": [
+          { "id": 1, "name": "Plataforma, clássico e atemporal", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Luta ou corrida, sempre agitado e competitivo", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "RPG, cheio de enredos profundos e emocionantes", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Party games, diversão garantida para todos", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Simulação, onde cada detalhe faz diferença", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Hack and slash, misturando tradição e tecnologia", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Aventura, com inovação mas sem perder a essência", "alias": "Game Boy" },
+          { "id": 8, "name": "Sandbox, onde tudo pode ser criado e compartilhado", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 5,
+        "question": "Escolha um acessório que você usaria sempre:",
+        "options": [
+          { "id": 1, "name": "Um controle clássico, sem firulas", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Um arcade stick para combates insanos", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Um headset para entrar de cabeça na história", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Um controle extra para chamar os amigos.", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Um teclado mecânico para ajustar cada comando", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Um VR, porque o futuro é agora", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Um cartucho lendário que nunca falha", "alias": "Game Boy" },
+          { "id": 8, "name": "Uma câmera, porque tudo precisa ser gravado", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Como você encara desafios?",
+        "options": [
+          { "id": 1, "name": "No meu tempo, sem pressa", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Correndo direto para a vitória", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Planejando cada movimento com estratégia", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Rindo e curtindo, sem estresse", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Ajustando tudo até encontrar a melhor solução", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Tentando novas abordagens, mesmo que seja difícil", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Com uma mistura de técnicas antigas e novas", "alias": "Game Boy" },
+          { "id": 8, "name": "Gravando e compartilhando minha experiência", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Qual seu maior medo?",
+        "options": [
+          { "id": 1, "name": "Ser esquecido com o tempo", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Perder uma competição", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Não conseguir terminar uma história épica", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Ficar sem companhia para jogar", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Perder todo o progresso por não salvar direito", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Que a tecnologia mude rápido demais", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Que o passado seja deixado para trás", "alias": "Game Boy" },
+          { "id": 8, "name": "Que ninguém mais veja meu conteúdo", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 8,
+        "question": "Qual é o seu lema de vida?",
+        "options": [
+          { "id": 1, "name": "\"Se algo funciona, não mexa\"", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "\"A vitória é minha\"", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "\"A jornada importa mais que o destino\"", "alias": "PlayStation 1" },
+          { "id": 4, "name": "\"Jogar junto é sempre melhor\"", "alias": "Nintendo 64" },
+          { "id": 5, "name": "\"Cada detalhe conta para a experiência perfeita\"", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "\"O futuro só é bom se respeitar o passado\"", "alias": "PlayStation 2" },
+          { "id": 7, "name": "\"A inovação deve andar lado a lado com a tradição\"", "alias": "Game Boy" },
+          { "id": 8, "name": "\"Se não foi gravado, nunca aconteceu\"", "alias": "Xbox Clássico" }
+        ]
+      },
+      {
+        "id": 9,
+        "question": "Como seria seu melhor amigo tech?",
+        "options": [
+          { "id": 1, "name": "Leal, confiável e nostálgico", "alias": "Nintendo Entertainment System (NES)" },
+          { "id": 2, "name": "Intenso, sempre pronto para uma disputa", "alias": "Super Nintendo (SNES)" },
+          { "id": 3, "name": "Profundo e cheio de histórias", "alias": "PlayStation 1" },
+          { "id": 4, "name": "Engraçado e sempre disposto a se divertir", "alias": "Nintendo 64" },
+          { "id": 5, "name": "Minucioso, garantindo sempre a melhor experiência", "alias": "Sega Dreamcast" },
+          { "id": 6, "name": "Visionário, misturando o clássico e o futurista", "alias": "PlayStation 2" },
+          { "id": 7, "name": "Curioso, sempre experimentando novas formas de jogar", "alias": "Game Boy" },
+          { "id": 8, "name": "Comunicativo e sempre conectado com os outros", "alias": "Xbox Clássico" }
+        ]
+      }
+    ],
+    "results": {
+      "Nintendo Entertainment System (NES)": "Você é um verdadeiro clássico! Assim como o NES, você valoriza o que é atemporal e acredita que qualidade é mais importante que modernidade. Fiel às suas raízes, você preza pela estabilidade e pelas boas lembranças, mas pode ter um pouco de resistência a mudanças.",
+      "Super Nintendo (SNES)": "Competitivo, enérgico e sempre pronto para desafios, você tem uma vibe SNES. Jogos de luta, corrida e multiplayer são seu forte, e você sempre busca aprimorar suas habilidades. No entanto, pode ser um pouco impaciente quando as coisas não saem como quer.",
+      "PlayStation 1": "Você ama histórias épicas e imersivas! Como o PlayStation 1, você é nostálgico e valoriza experiências emocionantes e memoráveis. RPGs e aventuras são o seu mundo, e você sempre encontra uma maneira de se perder em boas narrativas.",
+      "Nintendo 64": "Divertido e social, você combina com o Nintendo 64. Sempre rodeado de amigos, você valoriza as boas risadas e as partidas multiplayer. Gosta de desafios, mas sem levar as coisas muito a sério. Sua alegria é contagiante!",
+      "Sega Dreamcast": "Você é detalhista, perfeccionista e um pouco incompreendido. Assim como o Dreamcast, você quer proporcionar a melhor experiência possível, mesmo que nem sempre seja reconhecido por isso. Você busca qualidade acima de tudo, mesmo que precise nadar contra a corrente.",
+      "PlayStation 2": "Inovador, mas com um toque de nostalgia, você se identifica com o PlayStation 2. Sempre disposto a testar novas tecnologias, você mistura tradição com inovação e é aquele amigo que sabe aproveitar tanto o passado quanto o futuro.",
+      "Game Boy": "Pequeno, portátil, mas cheio de personalidade! Você não precisa de gráficos ultra-realistas para se divertir, pois vê valor na simplicidade. Você sabe que boas experiências não dependem de recursos avançados, mas sim de criatividade.",
+      "Xbox Clássico": "Você é sociável e adora compartilhar suas experiências! Assim como o Xbox original, você valoriza a conectividade e gosta de estar sempre cercado de boas histórias. Seu forte é estar antenado no mundo gamer e trocar ideias com outros jogadores."
+    }
+  },
+  {
+    "id": 7,
     "title": "Qual linguagem de programação seria sua parceira em um apocalipse zumbi?",
     "image": "zumbi.png",
+    "cardTag": [""],
     "questions": [
       {
         "id": 1,
@@ -306,101 +699,114 @@
       }
     ],
     "results": {
-      "Python": "Flexível, adaptável e prática, ideal para resolver problemas rapidamente no caos",
-      "Java": "Confiável, estruturada e robusta, perfeita para manter a ordem em situações críticas",
-      "JavaScript": "Criativa e caótica, sempre improvisando soluções, mesmo que nem sempre perfeitas",
-      "C#": "Otimizada e eficiente, construindo defesas sólidas com um toque moderno",
-      "C++": "Poderosa e intensa, feita para enfrentar desafios com força e precisão",
-      "PHP": "Simples e funcional, trabalhando nos bastidores para manter tudo rodando",
-      "SQL": "Organizada e analítica, gerenciando recursos e informações com maestria",
-      "TypeScript": "Elegante e moderna, trazendo melhorias sofisticadas para o apocalipse"
+      "Python": "Você é o mestre da adaptação! Com Python, você resolve problemas de forma rápida e eficiente, seja consertando um rádio quebrado ou escapando de zumbis com agilidade. Sua arma? Uma faca versátil que serve para qualquer situação. No grupo, você é o resolvedor de problemas que se adapta a tudo. Python é sua parceira ideal para sobreviver no caos com inteligência e praticidade!",
+      "Java": "Você é o líder nato! Com Java, você mantém a estrutura e a organização mesmo no meio do caos. Sua arma? Uma espada clássica e confiável. No grupo, você assume o controle e garante que todos estejam seguros. Java é sua aliada para criar sistemas robustos e confiáveis, mantendo o grupo unido e preparado para qualquer desafio!",
+      "JavaScript": "Você é o improvisador criativo! Com JavaScript, você sempre tem uma solução inesperada na manga, seja criando um estilingue turbinado ou encontrando caminhos alternativos. No grupo, você é o inventor que traz ideias únicas. JavaScript é sua aliada para sobreviver com criatividade e flexibilidade, transformando o caos em oportunidade!",
+      "C#": "Você é o estrategista perfeccionista! Com C#, você otimiza cada ação do grupo, seja planejando uma rota segura ou construindo defesas robustas. Sua arma? Um rifle bem projetado para máxima eficiência. No grupo, você é o planejador que garante que tudo funcione com precisão. C# é sua parceira para criar soluções otimizadas e impecáveis!",
+      "C++": "Você é o guerreiro implacável! Com C++, você enfrenta os zumbis com força e precisão, usando um machado pesado para ataques poderosos. No grupo, você é o estrategista que desenvolve planos detalhados para eliminar ameaças. C++ é sua parceira para criar soluções poderosas e eficientes, garantindo que nada escape do seu controle!",
+      "PHP": "Você é o suporte essencial! Com PHP, você mantém as coisas funcionando nos bastidores, seja consertando um rádio rapidamente ou usando armadilhas simples. No grupo, você é o facilitador que resolve problemas práticos sem complicações. PHP é sua aliada para sobreviver com simplicidade e eficiência, garantindo que nada pare de funcionar!",
+      "SQL": "Você é o organizador meticuloso! Com SQL, você gerencia recursos e informações com maestria, mapeando cidades e catalogando suprimentos. Sua arma? Um arco e flecha, perfeito para quem tem boa pontaria. No grupo, você é o estrategista que usa dados para tomar decisões inteligentes. SQL é sua parceira para sobreviver com organização e planejamento!",
+      "TypeScript": "Você é o inovador moderno! Com TypeScript, você traz novas ideias e estratégias, seja consertando um rádio com técnicas elegantes ou criando barreiras de proteção avançadas. No grupo, você é o visionário que melhora tudo ao seu redor. TypeScript é sua aliada para sobreviver com inovação e segurança, garantindo que o grupo esteja sempre um passo à frente!"
     }
   },
   {
-    "id": 4,
-    "title": "Como você sobreviveria em um mundo onde apenas as linguagens de programação governam?",
-    "image": "zumbi.png",
+    "id": 8,
+    "title": "Que tipo de hacker você seria em um filme de ação?",
+    "image": "hacker.png",
+    "cardTag": [""],
     "questions": [
       {
         "id": 1,
-        "question": "Você acorda neste mundo estranho. Qual é sua primeira ação?",
+        "question": "Qual é a sua motivação para hackear?",
         "options": [
-          { "id": 1, "name": "Explorar o ambiente e me adaptar às regras", "alias": "Python" },
-          { "id": 2, "name": "Procurar uma autoridade confiável para entender as leis", "alias": "Java" },
-          { "id": 3, "name": "Enfrentar qualquer desafio que apareça com força total", "alias": "C++" },
-          { "id": 4, "name": "Improvisar e tentar hackear o sistema", "alias": "JavaScript" },
-          { "id": 5, "name": "Analisar o terreno e planejar uma estratégia", "alias": "C#" },
-          { "id": 6, "name": "Fazer o básico para sobreviver sem chamar atenção", "alias": "PHP" },
-          { "id": 7, "name": "Coletar informações sobre tudo ao meu redor para me orientar", "alias": "SQL" },
-          { "id": 8, "name": "Ser ambicioso e procurar me integrar ao sistema", "alias": "TypeScript" }
+          { "id": 1, "name": "Quero proteger o mundo da ciberguerra e manter a segurança online.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Informação é poder, e eu gosto de ter muito poder.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Dinheiro, fama e caos! Não necessariamente nessa ordem.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Quero expor segredos obscuros e lutar contra o sistema.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Só quero provar que consigo invadir qualquer coisa.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Vi uns tutoriais na internet e quero testar uns comandos legais.", "alias": "O Noob da Dark Web" }
         ]
       },
       {
         "id": 2,
-        "question": "Cada linguagem controla uma facção. Com qual você tenta se aliar primeiro?",
+        "question": "Como você se veste para uma missão hacker?",
         "options": [
-          { "id": 1, "name": "A que resolve problemas de todos os tipos", "alias": "Python" },
-          { "id": 2, "name": "A que mantém a ordem e a estabilidade", "alias": "Java" },
-          { "id": 3, "name": "A que domina pela força bruta", "alias": "C++" },
-          { "id": 4, "name": "A que vive improvisando soluções", "alias": "JavaScript" },
-          { "id": 5, "name": "A que constrói tudo com precisão", "alias": "C#" },
-          { "id": 6, "name": "A que trabalha nos bastidores", "alias": "PHP" },
-          { "id": 7, "name": "A que que organiza e gerencia dados", "alias": "SQL" },
-          { "id": 8, "name": "A que melhora tudo o que toca", "alias": "TypeScript" }
+          { "id": 1, "name": "Moletom, café na mesa e um código de ética impecável.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Terno elegante e um olhar ameaçador—afinal, sou um vilão de filme.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Jaqueta de couro, óculos escuros e um sorriso de quem não se importa.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Roupa preta, capuz e uma máscara icônica para ocultar minha identidade.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Camiseta geek e um teclado mecânico barulhento.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Pijama e crocs, porque eu faço tudo de casa mesmo.", "alias": "O Noob da Dark Web" }
         ]
       },
       {
         "id": 3,
-        "question": "Os líderes das linguagens chamam você para um desafio de sobrevivência. Como você se prepara?",
+        "question": "Você está invadindo um sistema de segurança, e um firewall surge. O que faz?",
         "options": [
-          { "id": 1, "name": "Reviso todas as informações disponíveis e aprendo com outros sobreviventes", "alias": "Python" },
-          { "id": 2, "name": "Elaboro um plano sólido e me certifico de que tudo está bem estruturado", "alias": "Java" },
-          { "id": 3, "name": "Faço testes rigorosos para garantir que meu plano seja eficiente", "alias": "C++" },
-          { "id": 4, "name": "Me adapto rapidamente ao desafio, mesmo sem um plano definido", "alias": "JavaScript" },
-          { "id": 5, "name": "Desenvolvo um sistema de defesa para garantir minha segurança", "alias": "C#" },
-          { "id": 6, "name": "Crio soluções criativas e improviso quando necessário", "alias": "PHP" },
-          { "id": 7, "name": "Registro todas as estratégias possíveis e analiso os padrões", "alias": "SQL" },
-          { "id": 8, "name": "Me certifico de que nenhuma regra foi quebrada antes de agir", "alias": "TypeScript" }
+          { "id": 1, "name": "Contorno a segurança eticamente e aviso o administrador.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Quebro tudo com um exploit de zero-day e deixo um rastro misterioso.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Ignoro o firewall e sigo testando botões aleatórios.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Publico uma denúncia nas redes sociais expondo a falha.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Programo um bypass sofisticado que ninguém jamais detectará.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Jogo no Google \"como hackear firewall\" e sigo o primeiro tutorial.", "alias": "O Noob da Dark Web" }
         ]
       },
       {
         "id": 4,
-        "question": "Você encontra um viajante perdido que não entende nada desse novo mundo. Como o ajuda?",
+        "question": "O governo está atrás de você. Qual sua próxima jogada?",
         "options": [
-          { "id": 1, "name": "Mostro diferentes caminhos para ele aprender no próprio ritmo", "alias": "Python" },
-          { "id": 2, "name": "Explico as regras e o guio com um plano bem definido", "alias": "Java" },
-          { "id": 3, "name": "Dou instruções detalhadas para que ele seja eficiente desde o início", "alias": "C++" },
-          { "id": 4, "name": "Ensino ele na prática, sem me preocupar com a perfeição", "alias": "JavaScript" },
-          { "id": 5, "name": "Crio um ambiente seguro onde ele pode aprender com tranquilidade", "alias": "C#" },
-          { "id": 6, "name": "Explico do jeito mais fácil possível, sem complicações", "alias": "PHP" },
-          { "id": 7, "name": "Forneço todas as informações que ele pode precisar", "alias": "SQL" },
-          { "id": 8, "name": "Aconselho ele a seguir regras para evitar problemas no futuro", "alias": "TypeScript" }
+          { "id": 1, "name": "Não precisam me procurar, eu sou do time deles.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Dou um jeito de fazer parecer que outra pessoa fez tudo.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Mudo de identidade e sumo do mapa, tipo filme de espião.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Exponho todas as informações confidenciais deles antes de fugirem atrás de mim.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Apago todos os rastros e programo uma armadilha digital.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Tento negociar… talvez dizendo que foi \"só um experimento social\".", "alias": "O Noob da Dark Web" }
         ]
       },
       {
         "id": 5,
-        "question": "Qual recurso você priorizaria para sobreviver em um mundo governado por linguagens de programação?",
+        "question": "Qual sua arma secreta no mundo da tecnologia?",
         "options": [
-          { "id": 1, "name": "Inteligência Artificial e Automação", "alias": "Python" },
-          { "id": 2, "name": "Infraestrutura e Sistemas Robustos", "alias": "Java" },
-          { "id": 3, "name": "Sistemas de Segurança e Defesa", "alias": "C++" },
-          { "id": 4, "name": "Comunicação e Interfaces Interativas", "alias": "JavaScript" },
-          { "id": 5, "name": "Ferramentas de Realidade Virtual e Jogos", "alias": "C#" },
-          { "id": 6, "name": "Soluções Rápidas e Práticas", "alias": "PHP" },
-          { "id": 7, "name": "Bancos de Dados e Gestão de Informações", "alias": "SQL" },
-          { "id": 8, "name": "Sistemas Organizados e Previsíveis", "alias": "TypeScript" }
+          { "id": 1, "name": "Meu conhecimento ético e minha rede de contatos confiáveis.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Um vírus ultra sofisticado capaz de derrubar governos.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Uma conexão instável de internet e muita sorte.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Um software de rastreamento que sempre me mantém um passo à frente.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Um laptop modificado que roda sistemas que ninguém mais entende.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Um pendrive suspeito que encontrei na rua (parecia importante).", "alias": "O Noob da Dark Web" }
+        ]
+      },
+      {
+        "id": 6,
+        "question": "Qual sua frase de efeito antes de concluir um hack?",
+        "options": [
+          { "id": 1, "name": "\"A segurança digital é a base de um mundo melhor.\"", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "\"A queda do sistema é inevitável. Eu apenas acelerei o processo.\"", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "\"Tentei entrar, apertei umas teclas e... BOOM!\"", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "\"A verdade pertence ao povo, e agora ela está exposta.\"", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "\"Código é arte, e acabei de pintar minha obra-prima.\"", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "\"Ué, como foi que eu fiz isso mesmo?\"", "alias": "O Noob da Dark Web" }
+        ]
+      },
+      {
+        "id": 7,
+        "question": "Depois de um ataque hacker bem-sucedido, o que você faz?",
+        "options": [
+          { "id": 1, "name": "Envio um relatório detalhado para ajudar a corrigir as falhas.", "alias": "O White Hat (O Guardião do Ciberespaço)" },
+          { "id": 2, "name": "Desfruto do caos enquanto assisto tudo desmoronar.", "alias": "O Black Hat (O Gênio do Mal)" },
+          { "id": 3, "name": "Fico nervoso e tento esconder o que fiz.", "alias": "O Caótico Script Kiddie" },
+          { "id": 4, "name": "Transformo o evento em um documentário chocante.", "alias": "O Hacktivista Misterioso" },
+          { "id": 5, "name": "Aprimoro meu código para a próxima invasão.", "alias": "O Gênio do Código Oculto" },
+          { "id": 6, "name": "Vou dormir, porque já tá tarde e amanhã tem aula/trabalho.", "alias": "O Noob da Dark Web" }
         ]
       }
     ],
     "results": {
-      "Python": "Python é a linguagem versátil e poderosa...",
-      "JavaScript": "JavaScript é a linguagem que domina a web...",
-      "Java": "Java é a linguagem confiável e estruturada...",
-      "Ruby": "Ruby é a linguagem cheia de personalidade...",
-      "C++": "C++ é a linguagem poderosa e complexa...",
-      "PHP": "PHP é a linguagem que está em todo lugar...",
-      "C#": "C++ é a linguagem poderosa e complexa...",
-      "TypeScript": "PHP é a linguagem que está em todo lugar..."
+      "O White Hat (O Guardião do Ciberespaço)": "Você é o hacker do bem, o herói dos firewalls e o campeão da cibersegurança! Se o mundo fosse um filme, você seria o protagonista que invade sistemas apenas para protegê-los. Com ética inabalável e café sempre quente, sua missão é impedir que bandidos destruam a internet (ou pelo menos tentem). No entanto, nem sempre a galera te valoriza—afinal, poucos gostam de ouvir 'sua senha é fraca'. Mas continue assim, pois sem você, o mundo digital seria um verdadeiro faroeste!",
+      "O Black Hat (O Gênio do Mal)": "Você é o vilão definitivo dos filmes de ação: sombrio, calculista e sempre um passo à frente. Seu conhecimento é tão avançado que governos, empresas e heróis de Hollywood vivem tentando te parar. Mas você gosta do jogo, não é mesmo? Afinal, poder corrompe e você tem MUITO poder digital. O problema? Sempre tem um herói (ou um outro hacker) pronto para acabar com seus planos. Melhor ficar esperto, porque nem toda sombra é segura.",
+      "O Caótico Script Kiddie": "Você é aquele hacker que não faz ideia do que está fazendo, mas por algum motivo as coisas dão certo (ou muito errado). Sua vibe é apertar botões, copiar códigos da internet e ver no que dá. Em um filme de ação, você seria o alívio cômico, aquele que derruba um servidor inteiro por acidente e depois diz 'Ué, era só um teste!'. Mas cuidado: um dia a sorte pode acabar, e aí não adianta tentar ctrl+z na vida real.",
+      "O Hacktivista Misterioso": "Você não está aqui para brincadeiras! Seu objetivo é expor a verdade, desmascarar os poderosos e mudar o mundo com suas habilidades digitais. Você é um híbrido de hacker e justiceiro moderno, sempre pronto para lançar um vazamento bombástico e desafiar o sistema. Mas lembre-se: heróis solitários nem sempre têm um final feliz. No mínimo, um agente federal vai bater na sua porta.",
+      "O Gênio do Código Oculto": "Você é o hacker de elite que ninguém nunca vê, mas cujos códigos e exploits sempre aparecem em algum lugar. Suas habilidades são lendárias, e você prefere agir nas sombras, testando ferramentas avançadas e desenvolvendo novos métodos de invasão. Se um firewall existe, você já sabe como driblá-lo. Seu maior desafio? O tédio, porque às vezes quebrar sistemas é fácil demais para você.",
+      "O Noob da Dark Web": "Você baixou um programa suspeito, clicou num link errado e, de repente, é considerado um 'hacker'. Mas, sejamos sinceros, você não faz ideia do que está fazendo! Sua maior façanha foi instalar um vírus sem querer e passar uma semana tentando remover ele. Você se empolga vendo filmes sobre hackers e tenta repetir as cenas, mas a vida real não funciona assim. Melhor continuar só assistindo 'Mr. Robot' mesmo."
     }
   }
 ]

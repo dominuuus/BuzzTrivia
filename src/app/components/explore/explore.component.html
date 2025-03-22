@@ -1,9 +1,9 @@
 <div class="explore__container">
   <div *ngFor="let quiz of quizList"  class="explore__content">
-    <div>
+    <div class="quizz-image">
       <img src="{{ quiz.image }}" alt="{{ quiz.title }}" />
     </div>
-    <div>
+    <div class="quizz-title">
       <a [routerLink]="['/quizzes', quiz.id]">
         <h1>{{ quiz.title }}</h1>
       </a>

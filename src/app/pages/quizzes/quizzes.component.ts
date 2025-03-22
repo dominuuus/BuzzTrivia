@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import quizData from '../../../assets/data/explore_quiz.json'
+import quizData from '../../../assets/data/explore_quiz.json';
 import { CommonModule } from '@angular/common';
 import { MenuComponent } from "../../components/menu/menu.component";
 import { FooterComponent } from "../../components/footer/footer.component";
-import { ExploreComponent } from "../../components/explore/explore.component"; 
+import { ExploreComponent } from "../../components/explore/explore.component";
 
 @Component({
   selector: 'app-quizzes',
@@ -12,74 +12,79 @@ import { ExploreComponent } from "../../components/explore/explore.component";
   templateUrl: './quizzes.component.html',
   styleUrl: './quizzes.component.css'
 })
-export class QuizzesComponent implements OnInit{
+export class QuizzesComponent implements OnInit {
   quiz: any;
-  title:string = ""
+  title: string = "";
 
-  questions:any
-  questionSelected:any
+  questions: any;
+  questionSelected: any;
 
-  answers:string[] = []
-  answerSelected:string = ""
-  answerResult:string = ""
+  answers: string[] = [];
+  answerSelected: string = "";
+  answerResult: string = "";
 
-  questionIndex:number = 0
-  questionMaxIndex:number = 0
+  questionIndex: number = 0;
+  questionMaxIndex: number = 0;
 
-  finished:boolean = false
-  image:string = ""
+  finished: boolean = false;
+  image: string = "";
 
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    const id = Number(this.route.snapshot.paramMap.get('id'));
-    this.quiz = quizData.find(q => q.id === id);
-
-    if(quizData) {
-      this.finished = false
-      this.title = this.quiz?.title || ""
-
-      this.questions = this.quiz?.questions || []
-      this.questionSelected = this.questions[this.questionIndex]
-
-      this.questionIndex = 0
-      this.questionMaxIndex = this.questions.length
-
-      this.image = this.quiz?.image || ""
-      }
+    this.route.paramMap.subscribe(params => {
+      const id = Number(params.get('id'));
+      this.loadQuiz(id);
+    });
   }
 
-  selectedOption(value:string) {
-    this.answers.push(value)
-    this.nextStep()
+  loadQuiz(id: number) {
+    this.quiz = quizData.find(q => q.id === id);
+
+    if (this.quiz) {
+      this.finished = false;
+      this.title = this.quiz.title || "";
+
+      this.questions = this.quiz.questions || [];
+      this.questionSelected = this.questions[this.questionIndex];
+
+      this.questionIndex = 0;
+      this.questionMaxIndex = this.questions.length;
+
+      this.answers = this.quiz.questions
+
+      this.image = this.quiz.image || "";
+    }
+  }
+
+  selectedOption(value: string) {
+    this.answers.push(value);
+    this.nextStep();
   }
 
   async nextStep() {
-    this.questionIndex+=1
-    if(this.questionIndex < this.questionMaxIndex) {
-      this.questionSelected = this.questions[this.questionIndex]
-  } else {
-    this.finished = true
-    const finalResult:string = await this.checkResult(this.answers)
-    this.answerSelected = this.quiz?.results[finalResult as keyof typeof this.quiz.results]
-    this.answerResult = finalResult
-  }
+    this.questionIndex += 1;
+    if (this.questionIndex < this.questionMaxIndex) {
+      this.questionSelected = this.questions[this.questionIndex];
+    } else {
+      this.finished = true;
+      const finalResult: string = await this.checkResult(this.answers);
+      this.answerSelected = this.quiz.results[finalResult as keyof typeof this.quiz.results];
+      this.answerResult = finalResult;
+    }
   }
 
-  async checkResult(answers:string[]) {
-
+  async checkResult(answers: string[]) {
     const result = answers.reduce((previous, current, index, array) => {
-      if(
+      if (
         array.filter(item => item === previous).length >
         array.filter(item => item === current).length
-      ){
-        return previous
+      ) {
+        return previous;
       } else {
-        return current
+        return current;
       }
-    })
-    return result
+    });
+    return result;
   }
-
-  
 }

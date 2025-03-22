@@ -1,5 +1,4 @@
 .container__footer {
-    margin-top: 50px;
     align-items: center;
     text-align: center;
     border-top: 1px solid var(--color-gray300);
@@ -12,7 +11,7 @@
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 .content__footer div {

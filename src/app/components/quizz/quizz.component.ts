@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import quizz_questions from '../../../assets/data/quizz_questions.json'
 import { CommonModule } from '@angular/common';
+import quizData from '../../../assets/data/explore_quiz.json'
+
 
 @Component({
   selector: 'app-quizz',
@@ -29,17 +30,17 @@ export class QuizzComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void { 
-    if(quizz_questions) {
+    if(quizData) {
       this.finished = false
-      this.title = quizz_questions.title
+      this.title = quizData[0]?.title
 
-      this.questions = quizz_questions.questions
+      this.questions = quizData[0]?.questions
       this.questionSelected = this.questions[this.questionIndex]
 
       this.questionIndex = 0
       this.questionMaxIndex = this.questions.length
 
-      this.image = quizz_questions.image
+      this.image = quizData[0]?.image
       }
   }
 
@@ -55,7 +56,7 @@ export class QuizzComponent implements OnInit {
   } else {
     this.finished = true
     const finalResult:string = await this.checkResult(this.answers)
-    this.answerSelected = quizz_questions.results[finalResult as keyof typeof quizz_questions.results]
+    this.answerSelected = (quizData[0]?.results as Record<string, string | undefined>)[finalResult] ?? ""
     this.answerResult = finalResult
   }
   }
