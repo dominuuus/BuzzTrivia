@@ -3,6 +3,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { QuizzesComponent } from './pages/quizzes/quizzes.component';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import quizData from '../assets/data/explore_quiz.json';
+
 
 export const routes: Routes = [
     {
@@ -17,10 +19,16 @@ export const routes: Routes = [
 
     {
         path: 'quizzes/:id',
-        component: QuizzesComponent
+        component: QuizzesComponent,
+        data: { prerender: true },
+        resolve: { prerenderParams: getPrerenderParams }
     }
 
 ];
+
+export function getPrerenderParams() {
+    return quizData.map(quiz => ({ id: quiz.id.toString() }));
+  }
 
 @NgModule({
     imports: [RouterModule.forRoot(routes), AppComponent],
