@@ -38,7 +38,8 @@ button:hover {
 }
 
 .quizz_image img {
-  height: 25rem;
+  border-radius: 20px;
+  height: 40rem;
 }
 
 .title-result {
