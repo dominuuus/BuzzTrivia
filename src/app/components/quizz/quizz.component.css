@@ -98,6 +98,10 @@ h3{
         text-align: center;
     }
 
+    .quizz-result {
+        height: fit-content;
+    }
+
     .quizz_image {
         max-width: 100%;
         display: none;

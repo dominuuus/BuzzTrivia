@@ -1,63 +1,76 @@
-https://br.freepik.com/search?format=search&last_filter=selection&last_value=1&query=video+game+antigo&selection=1
-Imagens gratuitas
+# BuzzTrivia
+![BuzzTrivia](https://github.com/dominuuus/BuzzTrivia/blob/main/public/buzztrivia.png)
+
+**Repositório no GitHub**: [https://github.com/dominuuus/BuzzTrivia](https://github.com/dominuuus/BuzzTrivia)  
+🔗 **Aplicação Hospedada**: [https://buzz-trivia.vercel.app/](https://buzz-trivia.vercel.app/)
+
+## 📌 Descrição
+
+O **BuzzTrivia** é uma página web interativa onde os usuários podem explorar **10 quizzes divertidos** que combinam **tecnologia e cultura geek**. O projeto foi desenvolvido utilizando **Angular** e **TypeScript** como parte do bootcamp **Decolar Tech 2025 Avanade** promovido pela **DIO**. 
+
+O desafio consistia em criar uma **réplica da página de quizzes do BuzzFeed**, permitindo uma experiência dinâmica e envolvente.
+
+## 📜 Exemplos de Quizzes
+
+O projeto conta com quizzes divertidos como:
+
+- **"Descubra qual linguagem de programação combina com seu estilo geek!"**
+- **"Qual invenção tecnológica histórica você teria criado?"**
+- **"Qual sistema operacional reflete sua personalidade?"**
+- **"Qual linguagem de programação seria sua parceira em um apocalipse zumbi?"**
 
 
-# Buzztrivia
+🔹 **Tecnologias usadas no projeto** incluem:  
+- **Angular CLI v19.2.3**: Framework principal para construção da aplicação;
+- **TypeScript**: Para tipagem e lógica robusta;
+- **HTML e CSS**: Para estruturação e estilização;
+- **JSON**: Para armazenamento e organização dos dados dos quizzes;
+- **Vercel**: Plataforma de hospedagem da aplicação.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+## 🌟 Funcionalidades
 
-## Development server
+- 🚀 **Quizzes interativos sobre tecnologia e cultura geek**
+- 🎨 **Design personalizado** com identidade visual única
+- 🔀 **Sistema de navegação estruturado com rotas**
+- 🔍 **Perguntas geradas com IA** para proporcionar uma experiência envolvente
+- 📂 **Armazenamento de quizzes em JSON** para facilitar a manutenção dos dados
 
-To start a local development server, run:
+## 📌 Desafios e Aprendizados
 
-```bash
-ng serve
-```
+- Para estilização, utilizei meu conhecimento em CSS e HTML e criei a identidade visual 100% de forma autônoma, buscando apenas inspiração de paleta de cores em sites como adobe color;
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- Para a estruturação dos componentes, segui a vídeo aula com o Felipe Aguiar que mostrou a criação de um quiz, então decidi por explorar outros recursos como a criação de mais quiz e explorar um pouco sobre rotas;
 
-## Code scaffolding
+- Ao optar por ir além e criar mais quizzes e também realizar a estruturação da página para que funcione com rotas, precisei rever vídeos do módulo e assistir vídeos no Youtube de conteúdos relacionado ao Angular, principalmente na dificuldade que tive com o erro "Please define 'getPrerenderParams' function for this route in your server routing configuration or specify a different 'renderMode'." Para realizar a correção, precisei fazer várias pesquisas até entender que poderia realizar um ajuste no arquivo JSON. Aqui a ajuda da IA Generativa foi essencial para direcionar as correções necessárias para a correção.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Processo Criativo
+- **Conteúdo dos Quizzes**: Utilizei IA generativa para criar a estrutura inicial das perguntas e relacionar os temas com linguagens de programação e resultados personalizados;
+- **Estilização**: Criei a identidade visual de forma 100% autônoma, utilizando conhecimentos em **CSS** e **HTML**, com inspiração em paletas de cores de sites como Adobe Color;
+- **Estrutura**: Segui a vídeo aula do instrutor Felipe Aguiar como base para o primeiro quiz e expandi o projeto com mais quizzes e rotas, revisando módulos do bootcamp e buscando tutoriais no YouTube;
+- **Desafios Técnicos**: Enfrentei o erro *"Please define 'getPrerenderParams' function for this route..."* e, com pesquisas e auxílio de IA, ajustei o arquivo JSON para corrigir o problema e garantir o funcionamento das rotas;
+- **Imagens**: Algumas imagens foram retiradas gratuitamente do site https://br.freepik.com e outras foram geradas através de IA Generativa;
+- **Responsividade**: O projeto está adaptado para a visualização em smartphone e tablet.
 
-```bash
-ng generate component component-name
-```
+![alt text](BuzzTrivia-PC-1.png)
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
 
-```bash
-ng generate --help
-```
+## 🚀 Como Executar o Projeto Localmente
 
-## Building
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/dominuuus/BuzzTrivia.git
 
-To build the project run:
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd BuzzTrivia
 
-```bash
-ng build
-```
+3. Instale as dependências:
+   ```bash
+   npm install
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+4. Inicie a aplicação:
+   ```bash
+   ng serve
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
 
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.

@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title":"Descubra qual linguagem de programação combina com seu estilo geek!",
-    "image": "geek.png",
+    "image": "images/zumbi.png",
     "cardTag": [""],
     "questions":[
         {
@@ -128,7 +128,7 @@
   {
     "id": 2,
     "title": "Como você sobreviveria em um mundo onde apenas as linguagens de programação governam?",
-    "image": "mundo.png",
+    "image": "images/mundo.png",
     "cardTag": [""],
     "questions": [
       {
@@ -216,7 +216,7 @@
   {
     "id": 3,
     "title": "Qual invenção tecnológica histórica você teria criado?",
-    "image": "invencao.png",
+    "image": "images/invencao.png",
     "cardTag": [""],
     "questions": [
       {
@@ -300,7 +300,7 @@
   {
     "id": 4,
     "title": "Em qual era tecnológica você deveria ter nascido?",
-    "image": "eras.png",
+    "image": "images/eras.png",
     "cardTag": [""],
     "questions": [
       {
@@ -388,7 +388,7 @@
   {
     "id": 5,
     "title": "Qual sistema operacional reflete sua personalidade?",
-    "image": "sistemaoperacional.png",
+    "image": "images/sistemaoperacional.png",
     "cardTag": [""],
     "questions": [
       {
@@ -452,7 +452,7 @@
   {
     "id": 6,
     "title": "Qual videogame clássico seria seu melhor amigo tech?",
-    "image": "gameretro.png",
+    "image": "images/gameretro.png",
     "cardTag": [""],
     "questions": [
       {
@@ -596,7 +596,7 @@
   {
     "id": 7,
     "title": "Qual linguagem de programação seria sua parceira em um apocalipse zumbi?",
-    "image": "zumbi.png",
+    "image": "images/zumbi.png",
     "cardTag": [""],
     "questions": [
       {
@@ -712,7 +712,7 @@
   {
     "id": 8,
     "title": "Que tipo de hacker você seria em um filme de ação?",
-    "image": "hacker.png",
+    "image": "images/hacker.png",
     "cardTag": [""],
     "questions": [
       {
