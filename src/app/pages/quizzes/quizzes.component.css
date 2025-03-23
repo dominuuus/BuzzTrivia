@@ -1,6 +1,5 @@
 .quizz__container {
   display: flex;
-  justify-content: row;
   justify-content: space-around;
   margin: 2rem;
 }
