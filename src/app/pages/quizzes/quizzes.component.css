@@ -1,16 +1,16 @@
 .quizz__container {
   display: flex;
+  justify-content: row;
   justify-content: space-around;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem;
 }
 
 .quizz__content {
-  max-width: 60%;
+  max-width: fit-content;
 }
 
 .quizz_image {
-  max-width: 40%;
+  max-width: fit-content;
 }
 
 .quizz-options {
